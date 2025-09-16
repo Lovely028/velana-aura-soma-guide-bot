@@ -1,0 +1,2257 @@
+[
+    {
+        "content": "q1: what is aura-soma? - aura-soma is a unique holistic system that appeared at the end of the last century in great britain and is developing to this day. it includes color therapy, numerology, astrology, and the energy-spiritual wisdom of humanity.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "f3231cee-c22c-5db0-9b9e-7ab48a37e4b6",
+            "category": "General",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q2: what is aura-soma\u2019s mission? - aura-soma's mission is to promote cooperation among all beings in caring for each other and the earth that sustains us.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "223625ff-117b-5656-83bf-14d3edc61073",
+            "category": "General",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q3: what are aura-soma products? - aura-soma products are color-based wellness tools that blend botanical extracts, essential oils, crystals, and color vibrations to support personal well-being, self-discovery, and energetic balance through color therapy.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "434a4868-0b53-534c-bed5-a4d18f5130fb",
+            "category": "General",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q4: what types of products do you offer? - we offer the following aura-soma range, including: - equilibrium bottles: dual-colored oil blends for intuitive self-selection and energy balance. - pomanders: fragrant aura sprays or drops designed for energetic protection and cleansing. - quintessences: aromatic sprays for meditation, inspiration, and higher awareness. - rescue set: pocket rescue equilibrium oils are your 'aura-soma\u00ae first aid' on the go in an emergency, crisis situation.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "cf0d5e4e-a230-58b5-a628-73f89b355da1",
+            "category": "General",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q5: what types of aura-soma services do you offer? - most of these services are available online or one-on-one consultation: - aura-soma id - express consultation (personal daily tip) - classic consultation - mega consultation - mandala reading - colorful forecasts on major world events (political, economic, etc.) - aura-soma year forecast - aura-soma retreat - more offers, courses, and b2b opportunities you may find at www.velana.net/aurasoma and www.velana.net/cooperation",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "9f0ce0ce-b9fd-5c3c-9341-7b9311adb65d",
+            "category": "Services",
+            "topic": "services"
+        }
+    },
+    {
+        "content": "q6: how can i book the aura-soma consultation? - you may book your consultation in one click: https://velana.net/aurasoma#offers",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "3ff10afc-5e1b-5fc6-921b-9138f6e88a59",
+            "category": "Booking"
+        }
+    },
+    {
+        "content": "q7: are your products authentic? - yes - our products come directly from the aura-soma products ltd. (uk) factory and are guaranteed to be 100% authentic.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "edccdbcc-9e96-51f3-870a-b17dfcce6dd7",
+            "category": "Authenticity",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q8: where are aura-soma products made? - they are made in tetford, lincolnshire, uk.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "e8df9f95-87bc-57e8-b23c-ac5d4c3653ab",
+            "category": "Authenticity",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q9: are aura-soma products organic? - aura-soma claims that its products are produced biodynamically and naturally, the aura-soma products are not organic/bio certified.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "1095a0d5-3d63-525d-814f-ea8bc3e2c110",
+            "category": "Sustainability",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q10: are aura-soma products vegan? - no, aura-soma products are not vegan certified, and are not peta approved.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "2bff8677-ee76-59cd-ac1a-2342772daad3",
+            "category": "Sustainability",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q11: are aura-soma products sustainable? - there is no certified information about it, as well as there are no recycling or other sustainable pictograms on aura-soma packaging. you can find more expert info about it on the linkedin company page 'velana'.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "01751679-651d-5555-a2c9-d9211056c8d4",
+            "category": "Sustainability",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q12: how much do aura-soma products cost? - - equilibrium bottles: 47\u20ac each. - pomanders, quintessence, and rescue bottle: 27\u20ac each.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "8501d181-22ff-548a-b33a-a1601a2f8f40",
+            "category": "Pricing",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q13: what payment methods do you accept? - we accept: - stripe: major credit/debit cards (visa, mastercard, amex) - paypal - bank transfer (selected regions)",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "e14a7b67-e507-58e7-b953-692f8e4b3186",
+            "category": "Pricing"
+        }
+    },
+    {
+        "content": "q14: do you offer discounts or bundles? - yes, apply via email to info@velana.net. we provide: - birthday discount code - bundle discounts of 3-5 products (e.g., discounted sets of pomanders) - seasonal sales and promotions",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "ddd29a35-1888-5500-894b-260d1343d651",
+            "category": "Discounts",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q15: do you ship internationally? - yes - you can buy products after your personal consultation. yes - shipping is available worldwide. rates and times vary by destination.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "548f0351-eb07-54ca-bf81-3ba52a29730f",
+            "category": "Shipping",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q16: how long does shipping take? - - local deliveries: 2\u20135 business days - international deliveries: typically 7\u201314 business days.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "893911a6-d633-5aaa-8a5d-27c7997da34f",
+            "category": "Shipping",
+            "topic": "shipping"
+        }
+    },
+    {
+        "content": "q17: do you provide tracking? - yes - you will receive a tracking number via email once your order ships.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "7969ffbe-5491-547c-8805-b3060cf6764c",
+            "category": "Shipping"
+        }
+    },
+    {
+        "content": "q18: can i return aura-soma products? - opened or used items cannot be returned for health and safety reasons. however, unopened and unused items can be returned within 14 days of delivery.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "8d9ef30b-7c0a-523c-ba7f-48ba8ad7fa8e",
+            "category": "Returns",
+            "topic": "general"
+        }
+    },
+    {
+        "content": "q19: what if my product arrives damaged or defective? - contact us immediately with your order number and photos. we will replace or refund damaged items at no extra cost.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "b0f66b7f-2293-56d9-8007-691b1228ec2b",
+            "category": "Returns",
+            "topic": "pricing"
+        }
+    },
+    {
+        "content": "q20: how do i start a return? - email info@velana.net with your order details. we'll provide the return address and instructions. return shipping is the customer\u2019s responsibility unless the item is defective or damaged.",
+        "metadata": {
+            "source": "/content/aura_soma_faq.json",
+            "document_type": "structured",
+            "chunk_id": "77431f6f-8445-5409-9735-24ab1bebeb75",
+            "category": "Returns",
+            "topic": "shipping"
+        }
+    },
+    {
+        "content": "express: \u20ac35 - express consultation gives you personalized know-how for a chosen day. - are you planning an important event? are you choosing a date for a wedding or business opening? curious to know the guidance of the aura-soma angels? then an express consultation is what you need!",
+        "metadata": {
+            "source": "/content/aura_soma_pricelist.json",
+            "document_type": "structured",
+            "chunk_id": "2bc56ad6-e48c-5f33-8f30-8f8b99320a1d",
+            "name": "Express",
+            "price": "35",
+            "topic": "pricing"
+        }
+    },
+    {
+        "content": "classic: \u20ac100 - a classic aura-soma consultation reveals your unique gifts and mission. - reveals your unique gifts and mission of the spirit shows your past-present-future timeline helps you find answers to life situations revives inspiration and confidence on your path",
+        "metadata": {
+            "source": "/content/aura_soma_pricelist.json",
+            "document_type": "structured",
+            "chunk_id": "10c953d2-5580-5d0c-ae0b-1b614ae5e063",
+            "name": "Classic",
+            "price": "100",
+            "topic": "pricing"
+        }
+    },
+    {
+        "content": "mega: \u20ac130 - mega-consultation reveals all the sides and keys of aura-soma. - includes entire classic consultation determination of your individual equilibrium in aura-soma aura treatment with aura-soma pomander trends on your timeline how others see you practical tips on the path of destiny and much more",
+        "metadata": {
+            "source": "/content/aura_soma_pricelist.json",
+            "document_type": "structured",
+            "chunk_id": "99185540-f641-5e5f-9d30-6c573b660ef0",
+            "name": "Mega",
+            "price": "130",
+            "topic": "pricing"
+        }
+    },
+    {
+        "content": "aura-soma 2025: \u20ac150 - get a colourful, inspiring, and most unusual year forecast for 2025. - main leitmotifs and description of 2025 with aura-soma products",
+        "metadata": {
+            "source": "/content/aura_soma_pricelist.json",
+            "document_type": "structured",
+            "chunk_id": "a9784de6-4845-542c-8e2f-6f3e5180f1f5",
+            "name": "Aura-Soma 2025",
+            "price": "150",
+            "topic": "pricing"
+        }
+    },
+    {
+        "content": "mandala: \u20ac50 - personalised mandala reading for those who enjoy painting or coloring mandalas. - do you like to paint or color mandalas? want to know what stands behind your colours? get your personalised mandala reading",
+        "metadata": {
+            "source": "/content/aura_soma_pricelist.json",
+            "document_type": "structured",
+            "chunk_id": "9fb3439e-5b50-51e5-963f-2abe5774e001",
+            "name": "Mandala",
+            "price": "50",
+            "topic": "pricing"
+        }
+    },
+    {
+        "content": "aura treatments: \u20ac20 - treatments to address negative emotions, stress, and other issues affecting aura quality. - addresses negative emotions, stress, harmful habits, diseases, unhealthy lifestyle counteracts collective electromagnetic spectrum and other life issues that lower aura vibrations and quality",
+        "metadata": {
+            "source": "/content/aura_soma_pricelist.json",
+            "document_type": "structured",
+            "chunk_id": "2486d4fc-891b-53b1-8873-393c183f9aa7",
+            "name": "Aura Treatments",
+            "price": "20",
+            "topic": "pricing"
+        }
+    },
+    {
+        "content": "b000: spiritual rescue - equilibrium - supports spiritual awakening and connection.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "015027d6-0b62-5719-b0c0-dc766701482f",
+            "id": "B000",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b001: physical rescue - equilibrium - aids in physical recovery and vitality.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "1b0f30bd-c965-578f-9506-9d51d581154c",
+            "id": "B001",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b002: peace bottle - equilibrium - promotes inner peace, tranquility, calmness,",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "73de4528-a8cc-5aa3-b7fd-ea15cdaa893b",
+            "id": "B002",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b003: the heart bottle / atlantean bottle - equilibrium - enhances utmost clarity, harmony, integrity, generosity, freedom and intuition.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "4eb05fce-ec89-5815-8619-83c8a2ecef11",
+            "id": "B003",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b004: the sunlight bottle - equilibrium - brings infinite happiness, bliss, and luxury to the mind and spirit.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "46521232-9989-5474-adea-ab803ea06cec",
+            "id": "B004",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b005: sunrise / sunset bottle - equilibrium - balances the energies of beginnings and endings. active individualisation.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "7e97244b-000a-5f63-858a-f57d9da70a98",
+            "id": "B005",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b006: the energy bottle - equilibrium - boosts action, energy and concentration.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "30bf06de-35d1-5d22-ab7c-aeec715bc409",
+            "id": "B006",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b007: garden of gethsemane / final test of faith - equilibrium - assists in seeking the truth, fulfilment, knowledge.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "843ea4d2-4521-5429-9d45-d1084e6c8425",
+            "id": "B007",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b008: anubis - equilibrium - supports transformation and the release of the past.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "b5f34ecb-5c2b-57c7-b7ce-9afb85771153",
+            "id": "B008",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b009: heart within the heart / the transcendental heart / the crystal cave - equilibrium - awakens the transcendent heart (ananda kanda). incredible master.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "b5d21d3f-14f2-5b5a-94b4-6dbc46ee84e5",
+            "id": "B009",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b010: go hug a tree - equilibrium - connects with nature. enhances regeneration, balance, foresight.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "19284853-7869-5f55-9627-e6f7fc45364d",
+            "id": "B010",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b011: the essene bottle 1 / chain of flowers - equilibrium - enhances purity, letting go, ascension, heartfulness, delicacy.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "18c473d0-ca83-58b3-a1a1-85b2542c54f2",
+            "id": "B011",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b012: peace in the new aeon - equilibrium - an initiation. facilitates peace, faith, and harmony in the new era.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "63eac072-2883-515c-8d88-16dd01c2346c",
+            "id": "B012",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b013: change in the new aeon - equilibrium - supports the emotional side of life. adaptation and transformation.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "fec18a98-a615-575e-b42a-42c216b3fd8e",
+            "id": "B013",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b014: wisdom in the new aeon - equilibrium - wisdom unfolds the clarity in the new era.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "015ebcbe-3f69-5b35-b855-db5869fb9bba",
+            "id": "B014",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b015: service in the new aeon - equilibrium - encourages the search for truth and self discover. elevation of the self.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "de3ae734-5dc2-53ba-85ae-399bdb3ea94c",
+            "id": "B015",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b016: the violet robe - equilibrium - awakening to our true self and complete re-evaluation.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "d252fe21-cd69-510d-8ad2-246d440d6fd8",
+            "id": "B016",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b017: the hope / troubadour 1 - equilibrium - provides a new beginning for spirituality and connection to start within.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "5e54dcf0-1891-5b9b-a548-2df7125de1a3",
+            "id": "B017",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b018: egyptian bottle - equilibrium - provides refining of knowledge.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "08021bf6-111b-5356-96f2-40649baeefc5",
+            "id": "B018",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b019: living in the material world - equilibrium - energetical change, renewal of our bodies.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "20d6d315-a749-509c-a6cb-9dfdbf311d41",
+            "id": "B019",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b020: star child - equilibrium - the communication of unconditional love, dreams, peace and self-acceptance.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "b89cfe6d-4aaf-5c28-82da-9b6a296482d3",
+            "id": "B020",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b021: new beginning for love - equilibrium - promotes love & warmth in heart, transcendent wisdom.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "d11eacb0-4c11-539e-9f07-8e468144a79f",
+            "id": "B021",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b022: the rebirth / awakening - equilibrium - facilitates self-love, joy, charm, and realisation.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "4a856579-ae8c-581d-95d9-944c9dc46318",
+            "id": "B022",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b023: love and light - equilibrium - encourages compassion, forgiveness, tenderness and self-acceptance.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "b399c529-6c4e-555e-9094-9bd1bc3d613e",
+            "id": "B023",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b024: a new message - equilibrium - healing creator inspired by the universal spirit.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "f5fa800c-7c30-5502-8270-5882b332438a",
+            "id": "B024",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b025: florence nightingale - equilibrium - inspires pursuit of new experiences. a mystic and pioneering spirit.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "4a74e651-6995-58c7-ba02-56117aafecb4",
+            "id": "B025",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b026: etheric rescue - equilibrium - healing of the timeline. anger, shock and trauma absorber.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "1690e52e-427f-5eee-afe1-b84ce33de2d5",
+            "id": "B026",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b027: robin hood - equilibrium - balance between the head and heart. provokes action and courage.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "217da81b-35d5-5198-81aa-6c470b2aa0ab",
+            "id": "B027",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b028: maid marion - equilibrium - transcendent knowledge and intuition gives a new hope and relief to pain.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "5ba9dbb8-a3d0-5ed6-837c-d0de9c27ae20",
+            "id": "B028",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b029: get up and go! - equilibrium - provides courage, freedom, and determination.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "884d4f90-6f9c-58a5-9376-b8c75d6af527",
+            "id": "B029",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b030: bringing heaven to earth - equilibrium - head in heaven, feet on the earth. awakening to the communiation of peace.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "39ed1155-a3fb-57fc-8b74-c123ddad89dc",
+            "id": "B030",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b031: the fountain - equilibrium - supports growth, wisdom, and exquisite style.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "1a06ac1c-9680-52dc-bbdb-f6214a36cef2",
+            "id": "B031",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b032: sophia - equilibrium - enhances leadership qualities, nobility, and the ability to inspire others.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "6ec5d84d-7215-576f-8946-fc6781e15bca",
+            "id": "B032",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b033: dolphin bottle - equilibrium - provides peace with a purpose, clarity and creativity.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "ae353344-15b0-5948-81c3-85a00aa52e82",
+            "id": "B033",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b034: the birth of venus - equilibrium - stimulates beauty, artistry, creativity and innovation.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "a1bd6e49-5cb9-5ca2-bfdd-e84831c1a1b4",
+            "id": "B034",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b035: mystical kindness - equilibrium - feminine healer. promotes passion, desire, self-care trust, catalyst, mysticism.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "d6ab5969-1b1a-5dea-9e98-bf52ead897cc",
+            "id": "B035",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b036: charity - equilibrium - facilitates transition, transformative care and grace.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "bc799a91-ae75-54bb-b658-1a11902373a9",
+            "id": "B036",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b037: the guardian angel comes - equilibrium - encourages transformative communication of higher will.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "3a25e95f-02c5-51f4-a17a-b3fbc92774fe",
+            "id": "B037",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b038: discernment / troubadour 2 - equilibrium - supports imagination, space, inspired development, vitality and sacral wisdom.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "cf294be2-ea29-5e01-84e2-be2ab5f083b5",
+            "id": "B038",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b039: egyptian bottle 2 - equilibrium - inspires adventure and passion. healing joy bringer.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "4931911c-f66a-5075-9fa1-99124932eff7",
+            "id": "B039",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b040: the i am bottle - equilibrium - awakened wisdom, detachment of irrational fears and confusion.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "24c2ef9f-79ef-5fda-9c0c-f6bfd829586e",
+            "id": "B040",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b041: the wisdom bottle - equilibrium - enhances insights, enlightenment, joy & glorious wisdom on all levels.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "49cf511e-3dc4-59a7-bbac-69bc39c3ce15",
+            "id": "B041",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b042: harvest - equilibrium - provides self-consciousness and mastery.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "c7dc9fcd-132e-58d4-846b-2952a88e5e6f",
+            "id": "B042",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b043: creativity - equilibrium - provides liquid mind and creative heart. communication without borders and innovations.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "a3b2315c-aee4-577e-8b65-9e181154107d",
+            "id": "B043",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b044: the guardian angel - equilibrium - enhances ability to speak the truth, live in peace and miracle.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "24af9710-8d1e-5000-89a7-19ce88df4443",
+            "id": "B044",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b045: breath of love / heart's blossom - equilibrium - supports teaching abilities and the sharing attention to details, soul fulfilment with others.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "a1a9f52b-52e7-50c5-999b-24bed242efc1",
+            "id": "B045",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b046: the wanderer - equilibrium - enhances ripeness of life, leadership qualities and the ability to inspire others.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "2adfbf22-2022-5ce8-a004-76f305e2b423",
+            "id": "B046",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b047: the old soul - equilibrium - provides individual power, strong individual will, charisma and remarkable status.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "245cfdcd-b0ba-5b7e-ab44-cf3a9b38dee9",
+            "id": "B047",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b048: wings of change - equilibrium - provides healing of past, tears, losses. unfolds light and voidness for new quantum sparkes.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "5aee2e6c-5bdd-5ebc-a08c-3c34ab822ab4",
+            "id": "B048",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b049: the new messenger - equilibrium - leader inspired from sublime realms, having the keys of timegates.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "9ebbe321-6c22-5931-ad69-7d2a47006336",
+            "id": "B049",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b050: el morya - equilibrium - thy will, not my will. transcendent peace and clarity.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "fea87fa9-2de1-5ad0-9774-3662a79f737c",
+            "id": "B050",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b051: kuthumi - equilibrium - transcendent mastery and knowledge.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "b8119908-6c0a-5fed-88f0-ce48f353d0f3",
+            "id": "B051",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b052: lady nada - equilibrium - divine heart, ascendent & unconditional love.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "aa58eee6-7217-5b3f-bb0a-ea2e712831aa",
+            "id": "B052",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b053: hilarion - equilibrium - intuitive teacher. sublime hope, synchronicity, and integrity",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "5689d0b5-052c-50b0-b323-904665adf2cf",
+            "id": "B053",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b054: serapis bey - equilibrium - promotes strong purification, deep spiritual transformation, total reset.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "64897ed4-2141-515d-9cfb-54563681777a",
+            "id": "B054",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b055: he christ - equilibrium - provides the energy to work with and for the light.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "9a670ec1-cad5-5b2c-9c9d-ba9b59180781",
+            "id": "B055",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b056: saint germain - equilibrium - a mystic catalyst in the world. the power of violet flame.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "31b2fa78-d01c-56a3-b57a-bed88ce5c312",
+            "id": "B056",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b057: pallas athena and aeolus - equilibrium - continuous serenity and care. balance of mind and feelings. love nurtures intellect.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "1b949477-f032-50f5-ae34-00357bdf192b",
+            "id": "B057",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b058: orion and angelica - equilibrium - intellect assists the feelings and trust. peace along the marvelous love.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "caa6c54d-0cd3-53a5-bf40-c07edbbd8cb1",
+            "id": "B058",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b059: lady portia - equilibrium - justice and support. facilitates letting go of the judgement of self and fears.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "62566016-ecf0-5063-8797-c8d9f6e34750",
+            "id": "B059",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b060: lao tsu and kwan yin - equilibrium - clarity, freedom, wisdom, confidence, sense of presence, communication from the light.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "318cc4f5-8d47-5b35-a427-e847b989d11f",
+            "id": "B060",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b061: sanat kumara and lady venus kumara - equilibrium - masters of truthfulness, willpower, settlement, righteousness, mental and spiritual sciences.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "01ee37ee-9121-56aa-95af-26057d7ec074",
+            "id": "B061",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b062: maha chohan - equilibrium - light on a path of human evolution, liberation and ascension.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "757aa0eb-ba28-562d-a9ff-6a5b962f8dac",
+            "id": "B062",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b063: djwal khul and hilarion - equilibrium - teaching knowledge, inspiration, truth, healing, spiritual assistance.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "b201cc07-e832-54ac-b056-c357ccc5b54e",
+            "id": "B063",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b064: djwal khul - equilibrium - teaching and wisdom, esoteric healing, world service and group work.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "31c5b43c-12ae-5de2-b2f1-003eab73f97b",
+            "id": "B064",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b065: head in heaven and feet on earth - equilibrium - encourages passion, enthusiasm, transformative beauty, profound details.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "ee9ba976-8c8b-51fe-9753-c3aab809e289",
+            "id": "B065",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b066: the actress - equilibrium - supports detachment from conditioning, imagination, sensitivity.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "5d4d07cb-83a8-56b7-8647-4061f6365c86",
+            "id": "B066",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b067: love from above - equilibrium - inspires abundance, blessings, gratitude, beauty in little details.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "69bb9ce0-6a22-533f-b149-ad61bb7d3a4d",
+            "id": "B067",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b068: gabriel - equilibrium - promotes philosophical thinking, deep peace, fulfillment, strong intellect and contemplation.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "58b56d8f-46c4-5edc-9df1-1c30682d4ad0",
+            "id": "B068",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b069: the sounding bell - equilibrium - purification and transmutation derived from soul star.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "cb28c5ef-c356-5a98-91d9-18c83502e4db",
+            "id": "B069",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b070: vision of splendor - equilibrium - ascension through intellectual knowledge, justice, humour and joyful spirit. ability to see the bigger picture.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "30e054e2-ad43-5553-acda-33705597dbc3",
+            "id": "B070",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b071: the essene bottle 2 / the jewel in the lotus - equilibrium - the portal opened by unconditional love and understanding of suffering.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "8a407057-5711-5f81-b778-345f7df75add",
+            "id": "B071",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b072: the clown - equilibrium - struggle of opposites. understanding of sadness and calmness may heal the trauma and grief.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "7fdf35a9-bb97-5f07-a8ec-04637d2d15ff",
+            "id": "B072",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b073: chang tsu - equilibrium - exaltation, talent expression, deep joy, discernment as the key to clarity and wholeness.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "97300741-d04f-5565-9fa9-29a4cf20e38b",
+            "id": "B073",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b074: triumph - equilibrium - supports to overcome false pride, material attachments and find a balance.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "09b24d28-9ab6-5cd8-9f25-d8d3b47f9276",
+            "id": "B074",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b075: go with the flow - equilibrium - provides a deeper understanding of trust, freedom communication and relationships.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "38f2966a-924f-5ac6-ba64-67710114af83",
+            "id": "B075",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b076: trust - equilibrium - stimulates everlasting happiness, love, plenitude and enlightenment.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "2b7db34a-bb23-5e67-9fcd-3d5b8ee14d97",
+            "id": "B076",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b077: the cup - equilibrium - helps to restructure life and let go of illusions.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "c938f243-fd8a-55ca-b43d-0e46a951917c",
+            "id": "B077",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b078: crown rescue / the transition - equilibrium - in every ending there is a new beginning.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "013b36d3-e9f9-5dad-a0b2-6e3c31fe4165",
+            "id": "B078",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b079: the ostrich - equilibrium - promotes dedication and deep etheric healing.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "c28c373a-51d9-5d31-b019-6c459dcc95fc",
+            "id": "B079",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b080: artemis - equilibrium - supports to overcome survival challenges, materialistic mindset, frustration.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "39c58a37-3eaf-558e-b119-cceace2682bf",
+            "id": "B080",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b081: unconditional love - equilibrium - inspires caring, ease, warmth, trust, kindness and compassion on all levels.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "cbaa9aca-4b56-5482-b186-358ab8151531",
+            "id": "B081",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b082: calypso - equilibrium - promotes challenging and extensive paths of revelation of letting go and fulfillment coming from strong mind and intuition.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "c68e159e-b12e-5765-b851-5041aafe31ce",
+            "id": "B082",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b083: open sesame - equilibrium - the learnings of past mistakes and failures are expressed through creativity.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "34c2999d-8341-5235-ac54-c7ed405eb432",
+            "id": "B083",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b084: candle in the wind - equilibrium - supports a sense of vulnerability and develops strength.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "4fd5d22f-067f-5975-b7f6-0ed06053c6d9",
+            "id": "B084",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b085: titania - queen of the fairies - equilibrium - the magic light within. the conscious mind. the conscious mind, talents and creativity open the true freedom and clarity of path.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "6da1e9b4-2dac-5e10-bef4-5f3f01dd2280",
+            "id": "B085",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b086: oberon - king of the fairies - equilibrium - utmost clarity, crystal vision, and soul mission. unfolds the pioneering creator.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "25afd523-9b03-52ff-909d-a254b631711e",
+            "id": "B086",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b087: love wisdom - equilibrium - supports to let go of the past and ability to see beyond oneself's self reflection.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "a7fc560c-4303-5b4b-9632-bfd79cdc5a7b",
+            "id": "B087",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b088: jade emperor - equilibrium - enhances transcendent mastership, spiritual leadership, and reforming changes.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "b573faf3-beba-505f-9894-7e693e4e4ded",
+            "id": "B088",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b089: energy rescue - equilibrium - the time & paradigm shifter. awesome empowering gateway.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "ccf9c97a-a0fe-566b-94a3-e8cb07293e28",
+            "id": "B089",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b090: wisdom rescue - equilibrium - initiation to act with power and wisdom of incarnation star.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "fec659b9-c29c-5d7a-9c4a-5ebc346ff741",
+            "id": "B090",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b091: feminine leadership - equilibrium - provides leadership qualities and connection to the holy spirit (supernatural matters).",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "d046e36d-e6e1-587f-b825-c608ec78a6ef",
+            "id": "B091",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b092: gretel - equilibrium - provides feminine leadership, independence, and wisdom.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "a9745d5f-d9d1-502b-928f-b9a9374171c5",
+            "id": "B092",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b093: hansel - equilibrium - stimulates creative and innovative communication through facing the true self. ananda kanda opener.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "291920b0-961d-5c4b-abfc-fc4761fc56a3",
+            "id": "B093",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b094: archangel michael - equilibrium - master of individuation with peace and confidence. an intense truth revealer.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "fd8efe81-05f6-59d7-ae1c-11922fa1fd08",
+            "id": "B094",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b095: archangel gabriel - equilibrium - the messenger from the stars that shifts our evolution timeline.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "c276438c-c31f-5ac4-b0b6-6913ac4b359e",
+            "id": "B095",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b096: archangel raphael - equilibrium - strong subtle power and inter dimensional intuition. ultimate detachment and protection.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "007c3995-df32-5535-8460-962ba35a2e4a",
+            "id": "B096",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b097: archangel uriel - equilibrium - facilitates the true purpose, justice, wisdom and abundance of life through the innate intuition and beyond matter senses.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "2c9d65d0-b783-5910-8065-fe5648ea8dc9",
+            "id": "B097",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b098: archangel sandalphon - equilibrium - the four-way energy portal.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "be13a1fc-0629-5590-ab7c-39015605e063",
+            "id": "B098",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b099: archangel tzadkiel - equilibrium - a marvelous changer to self-love, life-master, and freedom in a here and now.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "67b73ea4-699b-5ae5-ac9c-58fe85253fac",
+            "id": "B099",
+            "category": "Equilibrium",
+            "topic": "products",
+            "bottle": "potential_bottle"
+        }
+    },
+    {
+        "content": "b100: archangel metatron - equilibrium - shining the light in the shadow. a new dawn in the subtle and non-manifested realsm.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "3cecdca8-b989-5f7e-bc4e-ac0a904928cb",
+            "id": "B100",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b101: archangel jophiel - equilibrium - divine hope and wonder. eliminates all inner bitterness with conscious peace, authority, unity and creative guidance.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "da5d30aa-23ac-506b-93a6-32c826a26952",
+            "id": "B101",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b102: archangel samael - equilibrium - wonderful re-evaluator of our beliefs and ideals, a new foundation enabler.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "032ddbe3-b18d-536c-97e1-88295ced5f8c",
+            "id": "B102",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b103: archangel haniel - equilibrium - unique activator of higher will in the darkness. all positive manifestor.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "fb549380-77f3-5684-93cb-25814b88d971",
+            "id": "B103",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b104: archangel chamael - equilibrium - a new order of being. divine space-freezer and love and comfort establishment.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "a657d4d1-a768-5d5d-98bd-4f06f183745d",
+            "id": "B104",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b105: archangel azrael - equilibrium - deep insights, ultimate courage, aggression- and fight-stopper. long lasting ecstacy and upliftment.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "864ad313-488d-500a-bcc3-b39731d53374",
+            "id": "B105",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b106: archangel ratziel - equilibrium - provides reciprocal maintenance and the inner alchemy of soul. peace-transmitter, holy messenger.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "c8d67328-07a3-5f42-87c4-ee1b5418542f",
+            "id": "B106",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b107: archangel tzaphkiel - equilibrium - the union of divine care and infinite talented potential.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "60f63120-088f-5c04-a671-c5f46c033f02",
+            "id": "B107",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b108: archangel jeremiel - equilibrium - supports letting go of the past pain and delusions, brings changes to perspective and true purpose expression.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "62061057-16ff-5ccc-970b-97a5943deace",
+            "id": "B108",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b109: archangel zachariel - equilibrium - truth and sincerity in love and relationships. detail enhancer and leadership synchroniser.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "fd2217ec-dbe6-5260-9560-2603623d15dd",
+            "id": "B109",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b110: archangel ambriel - equilibrium - the union of heart and soul star.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "f1d8df68-d29c-50be-b576-60603c7d3cc1",
+            "id": "B110",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b111: archangel daniel - equilibrium - inspires a restoration of inner and outer balance. practical game-changer.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "70b18925-4ef5-5aa2-9636-614728878713",
+            "id": "B111",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b112: archangel israfel - equilibrium - conscious art manifestor. supreme communicator and faithful creator. the union of mind, will, and transcendent heart.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "c7b2392c-4083-54f3-bad3-29030cee011c",
+            "id": "B112",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b113: archangel cassiel - equilibrium - life animator, sharp awareness, intuitive integrity, panoramic vision-expander.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "f67f6379-ac59-562e-8a00-9a3073c513df",
+            "id": "B113",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b114: archangel raguel - equilibrium - divine microscope.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "d53d1fee-5e96-532e-bf01-ffb92f236a8a",
+            "id": "B114",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b115: archangel khemiel & ariel - equilibrium - deep sensitivity, purifying flame, and transubstantiation towards our being.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "f18e5aa6-c018-5e54-aebf-fb92177fac18",
+            "id": "B115",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b116: queen mab - equilibrium - reconnection to our higher mind, benevolence and compassion.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "14c5e5d5-083d-5118-842f-39364458acf4",
+            "id": "B116",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b117: pan - equilibrium - trust to creative force and senses rather than reliance on the intellect.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "28bde27e-3d78-5b23-b1c6-8564393fdba7",
+            "id": "B117",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b118: echo - equilibrium - transdimensional remembering of the soul.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "c1940c50-7fb3-554c-8a4f-785c224acf59",
+            "id": "B118",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b119: ceres - equilibrium - bliss and insight gives the opportunity to go beyond any limitations.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "0d16bffe-26bf-5206-99c9-474fa5095c63",
+            "id": "B119",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b120: persephone - equilibrium - spiritual growth and transformation through expanded joy, dedication, and wellbeing.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "650c6774-2f36-5d32-a9cc-e253bc008a48",
+            "id": "B120",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b121: pluton - equilibrium - transcending the unconscious patterns of conditioning.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "45dae8f3-3e8c-582a-b379-eafb705a75c3",
+            "id": "B121",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b122: poseidon - equilibrium - letting go of everything that no longer serves to fulfill my spirit.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "11cab36b-a082-5e4b-87f6-49864c54840e",
+            "id": "B122",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "b123: rhea - equilibrium - very helpful in times of change and uncertainty. stimulates reason, willpower, and intuition.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "1dd80f6c-234c-5a2f-b983-4e88c4a7a001",
+            "id": "B123",
+            "category": "Equilibrium",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p01: white pomander - pomander - the original pomander.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "a3162381-5371-5d21-8327-09977bd19218",
+            "id": "P01",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p02: coral pomander - pomander -",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "99598627-1571-58fd-b650-80e759c71d0a",
+            "id": "P02",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p03: deep red pomander - pomander - the energizer and protector.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "7d3edad2-d53a-5791-a653-266ede80886f",
+            "id": "P03",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p04: emerald green pomander - pomander - truth and direction, the decision maker.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "42706868-6969-56ac-93fa-72c83348277e",
+            "id": "P04",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p05: gold pomander - pomander - wisdom and self knowledge.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "1abc7df9-2cae-5466-8b9b-8ce08a3976ef",
+            "id": "P05",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p06: lime green pomander - pomander - new growth.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "77c56495-2e3b-57a8-98df-88207fd0f880",
+            "id": "P06",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p07: magenta pomander - pomander - love from above.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "e04da2a9-0641-5f9d-ba21-e193cef4911b",
+            "id": "P07",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p08: olive green pomander - pomander - intuitive leadership of the heart.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "ba285224-0b62-5bda-b449-4154c2549dca",
+            "id": "P08",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p09: orange pomander - pomander - the regression protector, restoring the timeline.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "518e9a3b-65cc-547a-84b5-ca8add33e71a",
+            "id": "P09",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p10: pale coral pomander - pomander - acceptance.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "07ac72e4-16fa-57b2-b3ae-cf6bd95ed02d",
+            "id": "P10",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p11: pink pomander - pomander - just for love.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "9c017d81-fcaa-53c4-87db-251d87eb981f",
+            "id": "P11",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p12: red pomander - pomander - balancing the energies.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "a3c1f361-f681-5a5e-a51f-7304d8abe807",
+            "id": "P12",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p13: rose pink pomander - pomander - unconditional love.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "eb46f178-c047-5f4f-a783-4c1a799cad79",
+            "id": "P13",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p14: royal blue pomander - pomander - the perception strengthener.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "e08e7dba-3206-5999-97f5-3bffea4cf836",
+            "id": "P14",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p15: sapphire blue pomander - pomander - the communication protector.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "6af73a6f-9356-5553-8c58-7924cf07785a",
+            "id": "P15",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p16: yellow pomander - pomander - the sunlight and assimilation.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "ca18dbd5-4e78-5672-85ad-633205bb52cf",
+            "id": "P16",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p17: turquoise pomander - pomander - the healer's healer.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "82a99e7f-e34b-5301-9115-6ccd6372a4a1",
+            "id": "P17",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p18: violet pomander - pomander - the spiritual protector.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "d792874c-b441-5bfa-87f8-eb2c05a82f19",
+            "id": "P18",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "p19: deep magenta pomander - pomander - the carer's carer.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "8d8b3ce1-0334-520d-85fc-e85d42ffdd30",
+            "id": "P19",
+            "category": "Pomander",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q01: el morya - quintessence - thy will be done through me.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "477ed80a-ffcd-53a6-a228-bc4e5883c063",
+            "id": "Q01",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q02: kuthumi - quintessence - two-way communication between above and below.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "22297e45-dbc3-57e8-aca6-6a0b025e666f",
+            "id": "Q02",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q03: hilarion - quintessence - the way, the truth and the light.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "c2b2a148-82a3-556e-982d-496bb5db841f",
+            "id": "Q03",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q04: lady nada - quintessence - unconditional love and self acceptance.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "0f238633-44b6-524b-92d5-93f7080c3b80",
+            "id": "Q04",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q05: lady portia - quintessence - judge not lest ye be judged.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "cfd887be-3905-53cd-b863-0b07ea8f1ce6",
+            "id": "Q05",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q06: lao tsu & kwan yin - quintessence - release of the past through compassion and transformation",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "1aa32f64-03ad-55b4-83c4-b2f3f226549f",
+            "id": "Q06",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q07: maha chohan - quintessence - insight and creativity from the sea of pure universal.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "337973a0-4cba-55c6-870f-662318647a5a",
+            "id": "Q07",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q08: orion & angelica - quintessence - for the cyclical journeys of endings and fresh beginnings.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "0a6adadc-7c5a-58eb-abb4-245b32e92599",
+            "id": "Q08",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q09: pallas athena - quintessence - inspired expression of love and beauty.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "7ad3df84-b4ed-5936-a0d3-bc433b8317de",
+            "id": "Q09",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q10: sanat kumara - quintessence - reconciliation of the below and within.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "d17430fa-d953-5331-bcc3-5e4a8fc24a05",
+            "id": "Q10",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q11: serapis bey - quintessence - purification and new beginnings.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "3fa4cf69-4124-538c-8642-65f348953db8",
+            "id": "Q11",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q12: st. germain - quintessence - alchemical transformation.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "a542809f-7e69-5dc4-bc58-10cd27e411d8",
+            "id": "Q12",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q13: the christ - quintessence - the energy and fulfilment of love on earth.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "453f4c2b-f788-5af6-85d2-4c81e459f745",
+            "id": "Q13",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q14: djwal khul - quintessence - the seeking of truth.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "854e7626-a4df-5541-8356-43817165baae",
+            "id": "Q14",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "q15: the holy grail - quintessence - receptivity to what comes from within.",
+        "metadata": {
+            "source": "/content/Aura_Soma_Products.json",
+            "document_type": "structured",
+            "chunk_id": "c34885b9-44c2-5a6b-b3ec-1d56f4afe6e0",
+            "id": "Q15",
+            "category": "Quintessence",
+            "topic": "products"
+        }
+    },
+    {
+        "content": "welcome welcome welcome everybody so today i will tell you more about aura-soma system so here on the screen you can see the agenda and let's start from the first point the history of aura-soma and about vicky wall the appearance of aura-soma system is directly linked with the name of the famous english healer vicky wall created by her in the 80s of the 20th century the first collection of these multicolored bottles with an incredibly attractive power sparkling with the splendor of color and light was the result of amazing events of her life the starting point of which was vicky absolute faith and expertise which allowed her to understand the higher mind that speaks the language of",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "5e148006-4c8b-5a59-bb3b-482dc4d8c407",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "1",
+            "topic": "history"
+        }
+    },
+    {
+        "content": "color and mother nature color is light without which our existence is unthinkable at all do you agree?",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "68d836ba-6238-5ea8-89d7-8d1fb398ca0f",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "2",
+            "topic": "philosophy"
+        }
+    },
+    {
+        "content": "we perceive color of course naturally primarily through our vision through our eyes but subconsciously we absorb it through our skin and the entire being color being a wave in the physical sense penetrating into our body and causes certain biochemical reactions in tissues and stimulates important glands and normalizes and heals by influencing our body color can become its healer thus the science of color healing is called color therapy the best way to get to know vicky wall is to read her book the book calls the miracle of color healing following here are some facts from wiki's life vicky was the first female the fellow of the royal college of surgical pathology vicky was one of the",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "561938de-e73a-5704-81bf-0b3d0fd07504",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "3",
+            "topic": "history"
+        }
+    },
+    {
+        "content": "first to treat diabetes without insulin vicky's father was a special person he taught her how to understand herbs roots minerals plants and their medical use both vicky and her father they saw people's aura she began her training in the old school pharmacy where she put into practice the knowledge of plants she received from her father and later on vicky met margaret cockbain who had an osteopathi clinic and they became a partners organizing a medical center at 60 years old incredible fact this woman had a professional life rich in experience behind her which in one way or another way was always devoted to the health of people and caring for them and by this time",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "58f520b2-34db-5bd0-9c86-dc1cb699f80d",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "4",
+            "topic": "philosophy"
+        }
+    },
+    {
+        "content": "aura-soma arose vicky had to withdraw from active professional life due to progressive blindness and it seemed incredible that and it seemed incredible that at such elder age vicky created these colorful bottles and this is absolutely incredible that at such age with the progressing blindness this woman following her inner intuition created this product with sparkling colors indeed the intuitive development of aura-soma was the highest achievement of vicky wall and she herself saw her destiny in this she brought to aura-soma not only her rich personal and professional experience but also the knowledge about nature and its laws which her father told her about from early childhood and she gained later on at her professional practice in clinic the",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "00e863d7-e309-578e-9daa-f126fe2df5da",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "5",
+            "topic": "history"
+        }
+    },
+    {
+        "content": "transmitted knowledge was the beginning of a chain of significant and exciting events in her life having a variety of natural materials in her small laboratory one night driven by inspired intuition vicky began alchemical work the results of which was astonishing to herself already in the morning vickz and her friends could admire the wonderful appeared first bottles the contents of which were only liquids of different colors and shades and vicki had no answer to the question about the purpose of these bottles vicky not only had no idea about the capabilities of these substances but also did not know the significance of her discovery soon presenting her jewels that's how she called these bottles presented at various",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "9caf48dd-c963-5c12-89ad-eda6f6a1bb13",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "6",
+            "topic": "transcript"
+        }
+    },
+    {
+        "content": "exhibitions vicky began to receive more and more surprises from the people it turned out that the contents of the small bottles produce a much more significant effect than just cosmetics thanks to her innate gift of seeing the deep layers of people's aura vicky noted a very important observation for herself people first of all choose a bottle with the color in the so-called core of aua of an individual person in other words people choose a color that resonated with their colors and state of the aura thanks to this vision of the aura vicky was able to describe the broad effects of color therapy thus she derived the key thesis of aura we are the colors that",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "52053c9e-7c4c-5116-99fc-a06d89487058",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "7",
+            "topic": "philosophy"
+        }
+    },
+    {
+        "content": "we choose and these colors reflect the true needs and essence of our inner being and agree with me it's impossible to formulate this effect more precisely color supports a person to trust the inner light the inner guidance and therefore now we come to mission and values of aura-soma mission and values of our system encourage people to their higher self to the better version of themselves also awakes importance and care of the planet ecology mission and values of aura-soma draw attention to the inner potential talents energy and realization of each of us because all followed the path of vicky wall followed the truths of light and color until the last days of her life after vicky",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "02243078-84d5-5b1c-b127-ef62547e0e44",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "8",
+            "topic": "history"
+        }
+    },
+    {
+        "content": "left the research work was continued by her assistant and friend mike booth today he is the principal of aura-soma academy in united kingdom the search for the secrets and truths of the world is still ongoing new pearls of the unique neckace of our continue to be born up to this day and this is an incredible and inexplicable feeling and blessing of belonging to this living stream today there are 122 equilibriums behind every bottle there is unique story so pick up your bottle at personal consultation and find your story color and light all products of aura-soma are organic and natural and they produced biodynamically aura-soma is non intrusive non interfering it self choice based holistic system it",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "7da7f86a-894e-5bf2-a253-4d708a169e0f",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "9",
+            "topic": "philosophy"
+        }
+    },
+    {
+        "content": "speaks of the growth of consciousness, of bringing balance inner guidance, peace and understanding to all levels of our body mind spirit and senses.",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "887c2870-a8ac-5813-af52-7bd36fdcedc4",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "10",
+            "topic": "transcript"
+        }
+    },
+    {
+        "content": "it is a mean to help move towards positive being and personal growth towards auspicious changes on our planet, innovations and harmony for every being.",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "47bcb126-a1fb-5c69-b5b3-e0333c60bed0",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "11",
+            "topic": "transcript"
+        }
+    },
+    {
+        "content": "aura-soma combines the art of aroma therapy and herbal medicine through the use of herbal extracts and essential oils it combines the following three kingdoms the mineral kingdoms plant kingdoms and realms of color and light every aura-soma bottle combines these three realms the very concept of aura-soma means aura light soma means body in greek language or being on aramaic or life energy in sanskrit we can say therefore that aura-soma means light body light spirit therefore working with aura-soma products we develop our light body.",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "c61b8deb-1b5f-528d-8eea-49058d468748",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "12",
+            "topic": "philosophy"
+        }
+    },
+    {
+        "content": "aura-soma we can say it's an old noble wine in a new form vicky said i searched and explored the depths of time nature innate wisdom and peace and i discovered something that existed but was long forgotten something that was to be born again in the new age in the new era the concept of aura-soma is closely related to light and color and it is a mirror of life.",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "a823348e-0d1b-5464-b049-4ee55f666400",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "13",
+            "topic": "philosophy"
+        }
+    },
+    {
+        "content": "light creates life and color creates vitality. without light lives goes away and without the color it becomes monotonous.a person's attitude towards light and color speaks about its own attitude towards life itself its mission richness abundance meaningfulness love and light",
+        "metadata": {
+            "source": "/content/meet_aura_soma__and_awaken_through_aura_soma.json",
+            "document_type": "transcript",
+            "chunk_id": "a8bd2d84-1d7b-5c50-9aff-e6424b91b0f8",
+            "speaker": "Svetlana Saenkova",
+            "source_id": "14",
+            "topic": "philosophy"
+        }
+    }
+]
