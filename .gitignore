@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Streamlit secrets and cache
+.streamlit/
+
+# Local JSONL files (from populate.py or similar)
+*.jsonl
+
+# Other common ignores
+*.log
+.DS_Store
+.vscode/
