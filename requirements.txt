@@ -4,4 +4,4 @@ langchain-pinecone
 pinecone-client
 openai
 python-dotenv
-langchaingit add requirements.txt
+langchain
