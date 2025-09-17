@@ -53,7 +53,7 @@ def get_vector_store(_embeddings):
             embedding=_embeddings,
             namespace="aura-soma-velana"
         )
-        return vector_store.as_retriever(search_kwargs={"k": 10, "score_threshold": 0.2})
+        return vector_store.as_retriever(search_kwargs={"k": 5, "score_threshold": 0.1})
     except Exception as e:
         st.error(f"Pinecone vector store loading failed: {str(e)}")
         st.stop()
@@ -159,7 +159,7 @@ if st.button("🗑️ Clear Chat"):
 # --- User input with validation ---
 user_question = st.text_input("Type your question and press Enter:")
 if user_question:
-    user_question = user_question.strip()[:500]
+    user_question = user_question.strip()[:500].lower()
     if not user_question:
         st.warning("Please enter a valid question.")
     else:
