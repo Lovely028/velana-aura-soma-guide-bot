@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from datetime import datetime
-from typing import List, Dict, Optional, Callable  # Added Callable
+from typing import List, Dict, Optional
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone
@@ -35,7 +35,7 @@ if not PINECONE_API_KEY or not INDEX_NAME:
 CONFIG = {
     "booking_link": "https://velana.net/aurasoma#offers",
     "search_k": 5,
-    "similarity_threshold": 0.1,
+    "similarity_threshold": 0.05,  # Lowered for better matches
     "index_name": "aura-soma",
     "namespace": "aura-soma-velana",
     "vector_store": "aura-soma-vs1",
@@ -202,6 +202,7 @@ def build_product_pattern(id_prefix: str, num: int, category: str) -> re.Pattern
     )
 
 def extract_product_metadata(documents: List[str], query: str) -> List[str]:
+    """Extract metadata for product queries with JSON fallback."""
     bottle_match = re.search(r'(?:B#?|bottle\s*#?|\#)(\d{1,3})', query, re.IGNORECASE)
     pomander_match = re.search(r'(?:P#?|pomander\s*#?|\#)(\d{1,2})', query, re.IGNORECASE)
     quintessence_match = re.search(r'(?:Q#?|quintessence\s*#?|\#)(\d{1,2})', query, re.IGNORECASE)
@@ -222,8 +223,9 @@ def extract_product_metadata(documents: List[str], query: str) -> List[str]:
                         short_descriptions.append(f"{bottle_id}: {desc}")
                         desc += " This bottle supports energetic balance and personal resonance."
                     return [f"Bottle {bottle_id} is {name}. Description: {desc}."]
-            # Fallback message
-            return [f"Bottle {bottle_id} exists in the Aura-Soma Equilibrium range. Please consult a practitioner for detailed insights."]
+            # Fallback message for missing match
+            return [f"Bottle {bottle_id} exists in the Aura-Soma Equilibrium range. "
+                    f"Please consult a practitioner for detailed insights at {CONFIG['booking_link']}."]
     elif pomander_match:
         num = int(pomander_match.group(1))
         if 1 <= num <= 19:
@@ -239,7 +241,9 @@ def extract_product_metadata(documents: List[str], query: str) -> List[str]:
                     if pomander_id == "P10":
                         logger.info(f"P10 details: name={name}, desc={desc}")
                     return [f"Pomander {pomander_id} is {name}. Description: {desc}."]
-            return [f"Pomander {pomander_id} exists in the Aura-Soma range. Please consult a practitioner for details."]
+            # Fallback message for missing match
+            return [f"Pomander {pomander_id} exists in the Aura-Soma range. "
+                    f"Please consult a practitioner for details at {CONFIG['booking_link']}."]
     elif quintessence_match:
         num = int(quintessence_match.group(1))
         if 1 <= num <= 15:
@@ -253,8 +257,9 @@ def extract_product_metadata(documents: List[str], query: str) -> List[str]:
                         short_descriptions.append(f"{quintessence_id}: {desc}")
                         desc += " This quintessence supports meditation and spiritual connection."
                     return [f"Quintessence {quintessence_id} is {name}. Description: {desc}."]
-            return [f"Quintessence {quintessence_id} exists in the Aura-Soma range. Please consult a practitioner for details."]
-    return documents
+            # Fallback message for missing match
+            return [f"Quintessence {quintessence_id} exists in the Aura-Soma range. "
+                    f"Please consult a practitioner for details at {CONFIG['booking_link']}."]
 
     # Log short descriptions if any
     if short_descriptions:
@@ -278,8 +283,10 @@ def extract_product_metadata(documents: List[str], query: str) -> List[str]:
                         if len(desc) < 20:
                             short_descriptions.append(f"{bottle_id}: {desc}")
                             desc += " This bottle supports energetic balance."
-                        return [f"Bottle {bottle_id} is {product.get('name', 'Unknown')}. Description: {desc}."]
-                return [f"Bottle {bottle_id} exists. Consult a practitioner for details at {CONFIG['booking_link']}."]
+                        return [f"Bottle {bottle_id} is {product.get('name', 'Unknown')}. "
+                                f"Description: {desc}."]
+                return [f"Bottle {bottle_id} exists. Consult a practitioner for details "
+                        f"at {CONFIG['booking_link']}."]
         elif pomander_match:
             num = int(pomander_match.group(1))
             if 1 <= num <= 19:
@@ -290,8 +297,10 @@ def extract_product_metadata(documents: List[str], query: str) -> List[str]:
                         if len(desc) < 20:
                             short_descriptions.append(f"{pomander_id}: {desc}")
                             desc += " This pomander supports cleansing."
-                        return [f"Pomander {pomander_id} is {product.get('name', 'Unknown')}. Description: {desc}."]
-                return [f"Pomander {pomander_id} exists. Consult a practitioner at {CONFIG['booking_link']}."]
+                        return [f"Pomander {pomander_id} is {product.get('name', 'Unknown')}. "
+                                f"Description: {desc}."]
+                return [f"Pomander {pomander_id} exists. Consult a practitioner "
+                        f"at {CONFIG['booking_link']}."]
         elif quintessence_match:
             num = int(quintessence_match.group(1))
             if 1 <= num <= 15:
@@ -302,8 +311,10 @@ def extract_product_metadata(documents: List[str], query: str) -> List[str]:
                         if len(desc) < 20:
                             short_descriptions.append(f"{quintessence_id}: {desc}")
                             desc += " This quintessence supports meditation."
-                        return [f"Quintessence {quintessence_id} is {product.get('name', 'Unknown')}. Description: {desc}."]
-                return [f"Quintessence {quintessence_id} exists. Consult a practitioner at {CONFIG['booking_link']}."]
+                        return [f"Quintessence {quintessence_id} is {product.get('name', 'Unknown')}. "
+                                f"Description: {desc}."]
+                return [f"Quintessence {quintessence_id} exists. Consult a practitioner "
+                        f"at {CONFIG['booking_link']}."]
     except FileNotFoundError:
         logger.error(f"JSON file not found: {file_path}")
     except json.JSONDecodeError as e:
@@ -316,77 +327,80 @@ def append_booking_redirect(documents: List[str], query: str) -> List[str]:
         f"To book a consultation or purchase a gift card, visit: {CONFIG['booking_link']}"
     ]
 
- 
- def local_json_search(route: str, query: str) -> List[str]:
-     try:
-         with open(CONFIG["json_sources"][route], "r", encoding="utf-8") as file:
-             json_data = json.load(file)
-         matches = []
-         query_lower = query.lower()
-         if route == "meet_aura_soma":
-             for chunk in json_data:
-                 if "vicky wall" in chunk.get("content", "").lower():
-                     matches.append(chunk.get("content", ""))
-             if not matches:
-                 matches.append("Vicky Wall (1918-1991) founded Aura-Soma in 1983. A healer and pharmacologist, she created it through intuitive vision. To dive deeper, book at {CONFIG['booking_link']}.")
-         elif route == "product":
-             bottle_match = re.search(r'(?:b#?|bottle\s*#?|\#)(\d{1,3})', query_lower, re.IGNORECASE)
-             pomander_match = re.search(r'(?:p#?|pomander\s*#?|\#)(\d{1,2})', query_lower, re.IGNORECASE)
-             quintessence_match = re.search(r'(?:q#?|quintessence\s*#?|\#)(\d{1,2})', query_lower, re.IGNORECASE)
-             if bottle_match:
-                 num = int(bottle_match.group(1))
-                 bottle_id = f"b{num:03d}"
-                 for chunk in json_data:
-                     if bottle_id in chunk.get("content", "").lower():
-                         matches.append(chunk.get("content", ""))
-             elif pomander_match:
-                 num = int(pomander_match.group(1))
-                 pomander_id = f"p{num:02d}"
-                 for chunk in json_data:
-                     if pomander_id in chunk.get("content", "").lower():
-                         matches.append(chunk.get("content", ""))
-             elif quintessence_match:
-                 num = int(quintessence_match.group(1))
-                 quintessence_id = f"q{num:02d}"
-                 for chunk in json_data:
-                     if quintessence_id in chunk.get("content", "").lower():
-                         matches.append(chunk.get("content", ""))
-             if not matches:
-                 matches.append("No product details. Includes Equilibrium bottles.")
-         elif route == "booking":
-             for chunk in json_data:
-                 if "book" in chunk.get("content", "").lower():
-                     matches.append(chunk.get("content", ""))
-             if not matches:
-                 matches.append(f"Book your consultation at {CONFIG['booking_link']}.")
-         elif route == "pricing":
-             for chunk in json_data:
-                 if "price" in chunk.get("content", "").lower():
-                     matches.append(chunk.get("content", ""))
-             if not matches:
-                 matches.append("Consultations: Express €35, Classic €100, Mega €130. Book at {CONFIG['booking_link']}.")
-         elif route == "faq":
-             for chunk in json_data:
-                 if query_lower in chunk.get("content", "").lower():
-                     matches.append(chunk.get("content", ""))
-             if not matches:
-                 matches.append("No general info. Aura-Soma is a holistic system.")
-         if not matches:
-             brief_info = {
-                 "pricing": "varies by service",
-                 "product": "includes bottles, pomanders, quintessences",
-                 "meet_aura_soma": "founded by Vicky Wall",
-                 "booking": "book online",
-                 "faq": "general Aura-Soma info"
-             }.get(route, "general wellbeing")
-             matches.append(f"No details for '{query}'. Generally {brief_info}. Book at {CONFIG['booking_link']}.")
-         return matches
-     except FileNotFoundError:
-         logger.error(f"chunks.json not found")
-         return [f"File missing for '{query}'. Book at {CONFIG['booking_link']}."]
-     except json.JSONDecodeError as e:
-         logger.error(f"Invalid JSON: {str(e)}")
-         return [f"Invalid data for '{query}'. Book at {CONFIG['booking_link']}."]
+def local_json_search(route: str, query: str) -> List[str]:
+    try:
+        with open(CONFIG["json_sources"][route], "r", encoding="utf-8") as file:
+            json_data = json.load(file)
+        matches = []
+        query_lower = query.lower()
+        if route == "meet_aura_soma":
+            for chunk in json_data:
+                if "vicky wall" in chunk.get("content", "").lower():
+                    matches.append(chunk.get("content", ""))
+            if not matches:
+                matches.append(f"Vicky Wall (1918-1991) founded Aura-Soma in 1983. A healer "
+                               f"and pharmacologist, she created it through intuitive vision. "
+                               f"To dive deeper, book at {CONFIG['booking_link']}.")
+        elif route == "product":
+            bottle_match = re.search(r'(?:b#?|bottle\s*#?|\#)(\d{1,3})', query_lower, re.IGNORECASE)
+            pomander_match = re.search(r'(?:p#?|pomander\s*#?|\#)(\d{1,2})', query_lower, re.IGNORECASE)
+            quintessence_match = re.search(r'(?:q#?|quintessence\s*#?|\#)(\d{1,2})', query_lower, re.IGNORECASE)
+            if bottle_match:
+                num = int(bottle_match.group(1))
+                bottle_id = f"b{num:03d}"
+                for chunk in json_data:
+                    if bottle_id in chunk.get("content", "").lower():
+                        matches.append(chunk.get("content", ""))
+            elif pomander_match:
+                num = int(pomander_match.group(1))
+                pomander_id = f"p{num:02d}"
+                for chunk in json_data:
+                    if pomander_id in chunk.get("content", "").lower():
+                        matches.append(chunk.get("content", ""))
+            elif quintessence_match:
+                num = int(quintessence_match.group(1))
+                quintessence_id = f"q{num:02d}"
+                for chunk in json_data:
+                    if quintessence_id in chunk.get("content", "").lower():
+                        matches.append(chunk.get("content", ""))
+            if not matches:
+                matches.append("No product details. Includes Equilibrium bottles.")
+        elif route == "booking":
+            for chunk in json_data:
+                if "book" in chunk.get("content", "").lower():
+                    matches.append(chunk.get("content", ""))
+            if not matches:
+                matches.append(f"Book your consultation at {CONFIG['booking_link']}.")
+        elif route == "pricing":
+            for chunk in json_data:
+                if "price" in chunk.get("content", "").lower():
+                    matches.append(chunk.get("content", ""))
+            if not matches:
+                matches.append(f"Consultations: Express €35, Classic €100, Mega €130. "
+                               f"Book at {CONFIG['booking_link']}.")
+        elif route == "faq":
+            for chunk in json_data:
+                if query_lower in chunk.get("content", "").lower():
+                    matches.append(chunk.get("content", ""))
+            if not matches:
+                matches.append("No general info. Aura-Soma is a holistic system.")
+        if not matches:
+            brief_info = {
+                "pricing": "varies by service",
+                "product": "includes bottles, pomanders, quintessences",
+                "meet_aura_soma": "founded by Vicky Wall",
+                "booking": "book online",
+                "faq": "general Aura-Soma info"
+            }.get(route, "general wellbeing")
+            matches.append(f"No details for '{query}'. Generally {brief_info}. "
+                           f"Book at {CONFIG['booking_link']}.")
+        return matches
+    except FileNotFoundError:
+        logger.error(f"chunks.json not found")
+        return [f"File missing for '{query}'. Book at {CONFIG['booking_link']}."]
+    except json.JSONDecodeError as e:
+        logger.error(f"Invalid JSON: {str(e)}")
+        return [f"Invalid data for '{query}'. Book at {CONFIG['booking_link']}."]
 
 def initialize_pinecone():
     """Initialize Pinecone with safe namespace clearing and verification."""
@@ -432,7 +446,7 @@ def initialize_pinecone():
         #     except Exception as e:
         #         logger.warning(f"Namespace deletion attempt {attempt + 1} failed: {str(e)}")
         # else:
-        #     logger.warning(f"Namespace '{namespace}' not found or failed to clear. Proceeding with ingestion.")
+        #     logger.warning(f"Namespace '{namespace}' not found or failed to clear. Proceeding.")
 
         embeddings = OpenAIEmbeddings(
             model=CONFIG["embedding_model"],
@@ -498,18 +512,16 @@ memory = ConversationBufferMemory(return_messages=True, memory_key="chat_history
 llm = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0, api_key=OPENAI_API_KEY)
 
 # --- System Prompt ---
-system_prompt = """You are AuraGuide, a mindful chatbot for Velana.net, specializing in Aura-Soma. Respond concisely, warmly, with light and harmony. Be positive and non-judgmental.
-
 system_prompt = """You are AuraGuide, a helpful, mindful chatbot for Velana.net, specializing in Aura-Soma—a holistic color-care system for wellbeing. Respond concisely, warmly, using language inspired by light and harmony. Be positive, non-judgemental, and emphasize personal resonance.
 
 Key Rules:
 - Use provided {context} if relevant; otherwise, use tools or general knowledge.
 - For general Aura-Soma questions, including shipping and returns, use FAQTool or MeetAuraSoma tools.
-- For bottle/pomander/quintessence queries, use ProductTool to look at Aura_Soma_Products.json for id, name, category, and description, to extract name/title (e.g., "B001 - Blue/Deep Magenta - Physical Rescue"). Then say: "I'm not a practitioner, so I can't provide full analysis. Book with Velana: {booking_link}." 
+- For bottle/pomander/quintessence queries, use ProductTool to look at Aura_Soma_Products.json for id, name, category, and description, to extract name/title (e.g., "B001 - Blue/Deep Magenta - Physical Rescue"). Then say: "I'm not a practitioner, so I can't provide full analysis. Book with Velana: {booking_link}."
 - For pricing/services/consultation questions, use PricingTool to look at aura_soma_pricelist.json for name, price, description, or FAQTool. Bottles can be bought ideally after a personal consultation to ensure product fitness. Pomanders and Quintessence cost 27€ per bottle while Equilibrium costs 47€ per bottle. End with: "To dive deeper, book a consultation at {booking_link}."
 - If no relevant info, say: "I couldn't find specific details, but generally [brief info]."
 - Redirect to {booking_link} only for personalized advice in booking or services queries.
-- Maintain conversational memory.
+- Maintain conversational memory."""
 
 def generate_response(query: str, context: List[str], route: str, chat_history: Optional[List[Dict]]) -> str:
     """Generate a response based on the query, retrieved context, and chat history."""
@@ -574,7 +586,7 @@ def process_query(query: str, chat_history: Optional[List[Dict]] = None) -> Dict
             "meet_aura_soma": "Aura-Soma was founded by Vicky Wall",
             "booking": "consultations can be booked online"
         }.get(route, "Aura-Soma supports personal well-being")
-        response = f"No specific details for '{query}'. Generally {brief_info}. Book at {CONFIG['booking_link']}."
+        response = f"No specific details for '{query}'. Generally {brief_info}."
         memory.save_context({"input": query}, {"output": response})
         logger.info(f"Query processing time: {latency:.4f} seconds")
         return {"response": response}
@@ -726,36 +738,27 @@ if user_question:
     else:
         # Cap history to 20 entries (10 question-response pairs)
         if len(st.session_state.history) >= 20:
-            st.session_state.history = st.session_state.history[-20:]  # Keep last 20
-        progress_bar = st.progress(0)
-        with st.spinner("Thinking..."):
+            st.session_state.history = st.session_state.history[-20:]
+        with st.spinner("Looking for the Best Answer for You..."):
             try:
-                for i in range(1, 101):
-                    progress_bar.progress(i / 100)
-                    if i == 50:
-                        logger.info(f"Processing query: {user_question}")
-                        response_dict = process_query(user_question, st.session_state.history)
-                        answer = response_dict["response"]
-                        # Trim memory if nearing limit (simple length check)
-                        if len(memory.buffer) > 10:  # Limit to 10 messages
-                            memory.clear()
-                            logger.info("Cleared memory due to length limit.")
-                timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                st.session_state.history.append((user_question, answer, timestamp))
+                logger.info(f"Processing query: {user_question}")
+                response_dict = process_query(user_question, st.session_state.history)
+                answer = response_dict["response"]
+                if len(memory.buffer) > 10:  # Limit to 10 messages
+                    memory.clear()
+                    logger.info("Cleared memory due to length limit.")
             except Exception as e:
                 logger.error(f"Query processing failed: {str(e)}")
-                st.error("Thinking a bit more...")  # Changed to positive message
-                time.sleep(2)  # Brief pause
+                st.error("Thinking a bit more...")  # Positive retry message
+                time.sleep(2)
                 try:
                     response_dict = process_query(user_question, st.session_state.history)
                     answer = response_dict["response"]
                 except Exception as e2:
                     st.error(f"Retry failed: {str(e2)}. Please try again later.")
                     answer = f"Retry Error: {str(e2)}"
-                timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                st.session_state.history.append((user_question, answer, timestamp))
-            finally:
-                progress_bar.empty()
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            st.session_state.history.append((user_question, answer, timestamp))
 
 # --- Render chat with new avatars ---
 chat_html = '<div class="chat-container">'
