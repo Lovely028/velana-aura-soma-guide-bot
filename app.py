@@ -8,6 +8,7 @@ from langchain_openai import OpenAIEmbeddings
 from pinecone import Pinecone
 import json
 import re
+from typing import List, Dict  # Added this line
 
 # --- API Key Security: Use Streamlit secrets ---
 try:
@@ -95,7 +96,7 @@ def load_chunks():
         st.stop()
 
 # --- Local JSON Search Fallback ---
-def local_json_search(query: str, chunks: List[dict]) -> List[str]:
+def local_json_search(query: str, chunks: List[Dict]) -> List[str]:  # Updated type hint
     matches = []
     query_lower = query.lower()
     for chunk in chunks:
