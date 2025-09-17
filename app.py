@@ -6,7 +6,6 @@ from langchain_openai import ChatOpenAI
 from langchain_pinecone import PineconeVectorStore
 from langchain_openai import OpenAIEmbeddings
 from pinecone import Pinecone
-import json
 
 # --- API Key Security: Use Streamlit secrets ---
 try:
@@ -40,7 +39,7 @@ def init_pinecone():
 def get_embeddings():
     try:
         os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-        return OpenAIEmbeddings(model="text-embedding-3-large", dimensions=1024)  # Added dimensions=1024
+        return OpenAIEmbeddings(model="text-embedding-3-large", dimensions=1024)
     except Exception as e:
         st.error(f"OpenAI Embeddings failed: {str(e)}")
         st.stop()
@@ -52,9 +51,9 @@ def get_vector_store(_embeddings):
         vector_store = PineconeVectorStore(
             index_name=INDEX_NAME,
             embedding=_embeddings,
-            namespace="aura-soma-velana"  # Added namespace
+            namespace="aura-soma-velana"
         )
-        return vector_store.as_retriever(search_kwargs={"k": 10, "score_threshold": 0.2})  # Added search_kwargs
+        return vector_store.as_retriever(search_kwargs={"k": 10, "score_threshold": 0.2})
     except Exception as e:
         st.error(f"Pinecone vector store loading failed: {str(e)}")
         st.stop()
@@ -104,6 +103,7 @@ st.markdown(
         border-radius: 15px;
         max-width: 75%;
         word-wrap: break-word;
+        color: #000000; /* Explicit black text for readability */
     }
     .user-msg {
         background-color: #DCF8C6;
@@ -132,28 +132,17 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
+
 st.title("Aura Guide Bot")
 
-# --- Session state and persistent history ---
-HISTORY_FILE = "chat_history.json"
+# --- Session state (no JSON file) ---
 if "history" not in st.session_state:
     st.session_state.history = []
-    if os.path.exists(HISTORY_FILE):
-        try:
-            with open(HISTORY_FILE, "r") as f:
-                st.session_state.history = json.load(f)
-        except Exception as e:
-            st.warning(f"Failed to load chat history: {str(e)}")
 
-# Save history to file
-def save_history():
-    try:
-        with open(HISTORY_FILE, "w") as f:
-            json.dump(st.session_state.history, f)
-    except Exception as e:
-        st.warning(f"Failed to save chat history: {str(e)}")
+# --- Intro message ---
+st.write("👋 I am graced by your presence! Ask me about Aura-Soma.")
 
-# Sidebar settings
+# --- Sidebar settings ---
 with st.sidebar:
     st.header("Settings")
     model_choice = st.selectbox("Choose model:", ["gpt-3.5-turbo", "gpt-4"])
@@ -162,12 +151,12 @@ with st.sidebar:
     llm.temperature = temp
     qa_chain = get_qa_chain(llm, retriever)
 
-# Clear chat button
+# --- Clear chat button ---
 if st.button("🗑️ Clear Chat"):
     st.session_state.history = []
-    save_history()
+    st.rerun()  # Use st.rerun() instead of experimental_rerun() for newer Streamlit versions
 
-# User input with validation
+# --- User input with validation ---
 user_question = st.text_input("Type your question and press Enter:")
 if user_question:
     user_question = user_question.strip()[:500]
@@ -183,22 +172,25 @@ if user_question:
                         answer = qa_chain.run(user_question)
                 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 st.session_state.history.append((user_question, answer, timestamp))
-                save_history()
             except Exception as e:
-                st.error(f"Query failed: {str(e)}")
+                st.error(f"Query failed: {str(e)}. Please check your internet or API keys.")
+                st.session_state.history.append((user_question, f"Error: {str(e)}", timestamp))  # Log error to history
             finally:
                 progress_bar.empty()
 
-# Render chat with avatars and timestamps
+
+# --- Render chat with new avatars ---
 chat_html = '<div class="chat-container">'
 for q, a, ts in st.session_state.history:
+    # User message with midtone green circle avatar
     chat_html += f'''
     <div class="chat-row user-row">
-        <img class="avatar" src="https://i.imgur.com/8Km9tLL.png" alt="User">
+        <div style="width:40px;height:40px;border-radius:50%;background-color:#6B8E23;margin:0 10px;"></div>
         <div class="user-msg">{q}<div class="timestamp">{ts}</div></div>
     </div>
     <div class="chat-row">
-        <img class="avatar" src="https://i.imgur.com/7kJX5hR.png" alt="Bot">
+        <!-- Bot avatar: Turquoise sparkling neon digital art from GitHub main -->
+        <img class="avatar" src="https://raw.githubusercontent.com/Lovely028/velana-aura-soma-guide-bot/main/bot_avatar.png" alt="Bot" onerror="this.style.display='none'; this.nextElementSibling.style.marginLeft='0';">
         <div class="bot-msg">{a}<div class="timestamp">{ts}</div></div>
     </div>
     '''
