@@ -182,6 +182,7 @@ if user_question:
 # --- Render chat with new avatars ---
 chat_html = '<div class="chat-container">'
 for q, a, ts in st.session_state.history:
+    
     # User message with midtone green circle avatar
     chat_html += f'''
     <div class="chat-row user-row">

@@ -1,6 +1,5 @@
 # Python virtual environment
 venv/
-.venv/
 
 # Python cache files
 __pycache__/
@@ -12,7 +11,10 @@ __pycache__/
 # Local JSONL files (from populate.py or similar)
 *.jsonl
 
+# Local environment and secrets files
+.env
+secrets.toml
+
 # Other common ignores
-*.log
-.DS_Store
+.log
 .vscode/
