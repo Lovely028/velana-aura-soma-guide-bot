@@ -8,7 +8,13 @@ from langchain_openai import OpenAIEmbeddings
 from pinecone import Pinecone
 import json
 import re
-from typing import List, Dict  # Added this line
+from typing import List, Dict
+import logging
+import time
+
+# --- Configure logging ---
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # --- API Key Security: Use Streamlit secrets ---
 try:
@@ -96,7 +102,7 @@ def load_chunks():
         st.stop()
 
 # --- Local JSON Search Fallback ---
-def local_json_search(query: str, chunks: List[Dict]) -> List[str]:  # Updated type hint
+def local_json_search(query: str, chunks: List[Dict]) -> List[str]:
     matches = []
     query_lower = query.lower()
     for chunk in chunks:
@@ -203,8 +209,11 @@ if user_question:
     if not user_question:
         st.warning("Please enter a valid question.")
     else:
+        # Cap history to 20 entries (10 question-response pairs)
+        if len(st.session_state.history) >= 20:
+            st.session_state.history = st.session_state.history[-20:]  # Keep last 20
         progress_bar = st.progress(0)
-        with st.spinner("Thinking..."):
+        with st.spinner("Looking for the Best Answer for You..."):  # Updated spinner message
             try:
                 for i in range(1, 101):
                     progress_bar.progress(i / 100)
@@ -215,13 +224,26 @@ if user_question:
                         if len(context) < 3:  # Weak retrieval - fallback to JSON
                             fallback_matches = local_json_search(user_question, chunks)
                             context += fallback_matches
-                            st.info("Using chunks.json fallback for better results.")
+                        # Removed st.info, keeping the spinner message as user feedback
                         answer = qa_chain.run("\n---\n".join(context) if context else user_question)
                 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 st.session_state.history.append((user_question, answer, timestamp))
             except Exception as e:
-                st.error(f"Query failed: {str(e)}. Please check your internet or API keys.")
-                st.session_state.history.append((user_question, f"Error: {str(e)}", timestamp))  # Log error to history
+                logger.error(f"Query processing failed: {str(e)}")
+                st.error(f"Query failed: {str(e)}. Please check your internet or API keys or try again later.")
+                st.session_state.history.append((user_question, f"Error: {str(e)}", timestamp))
+                time.sleep(2)  # Brief pause before retry
+                try:
+                    docs = retriever.get_relevant_documents(user_question)
+                    context = [doc.page_content for doc in docs]
+                    if len(context) < 3:
+                        fallback_matches = local_json_search(user_question, chunks)
+                        context += fallback_matches
+                    answer = qa_chain.run("\n---\n".join(context) if context else user_question)
+                    st.session_state.history.append((user_question, answer, timestamp))
+                except Exception as e2:
+                    st.error(f"Retry failed: {str(e2)}. Please try again later.")
+                    st.session_state.history.append((user_question, f"Retry Error: {str(e2)}", timestamp))
             finally:
                 progress_bar.empty()
 
