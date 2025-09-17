@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from datetime import datetime
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Callable
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone
