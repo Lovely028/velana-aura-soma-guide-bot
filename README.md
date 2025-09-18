@@ -4,7 +4,7 @@
 
 # Velana's Aura-Soma Bot 🌈✨
 
-Velana's Aura Soma Bot leverages a Retrieval-Augmented Generation (RAG) pipeline, Large Language Models (LLMs), Pinecone, and Streamlit to explore Aura-Soma® concepts. It combines AI, vector search, and generative reasoning to provide interactive guidance, bridging color-energy wisdom with cutting-edge technology.
+Velana's Aura Soma Guide bot leverages a Retrieval-Augmented Generation (RAG) pipeline, Large Language Models (LLMs), Pinecone, and Streamlit to explore Aura-Soma® concepts. It combines AI, vector search, and generative reasoning to provide interactive guidance, bridging color-energy wisdom with cutting-edge technology. Chat with the Aura Guide bot here: https://velana-aura-soma-guide-bot.streamlit.app/ 
 
 ## Table of Contents
 
