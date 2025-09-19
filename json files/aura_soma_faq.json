@@ -1,0 +1,124 @@
+{
+  "faqs": [
+    {
+      "id": "Q1",
+      "question": "What is Aura-Soma?",
+      "answer": "Aura-Soma is a unique holistic system that appeared at the end of the last century in Great Britain and is developing to this day. It includes color therapy, numerology, astrology, and the energy-spiritual wisdom of humanity.",
+      "category": "General"
+    },
+    {
+      "id": "Q2",
+      "question": "What is Aura-Soma’s Mission?",
+      "answer": "Aura-Soma's mission is to promote cooperation among all beings in caring for each other and the Earth that sustains us.",
+      "category": "General"
+    },
+    {
+      "id": "Q3",
+      "question": "What are Aura-Soma products?",
+      "answer": "Aura-Soma products are color-based wellness tools that blend botanical extracts, essential oils, crystals, and color vibrations to support personal well-being, self-discovery, and energetic balance through color therapy.",
+      "category": "General"
+    },
+    {
+      "id": "Q4",
+      "question": "What types of products do you offer?",
+      "answer": "We offer the following Aura-Soma range, including:\n- Equilibrium Bottles: dual-colored oil blends for intuitive self-selection and energy balance.\n- Pomanders: fragrant aura sprays or drops designed for energetic protection and cleansing.\n- Quintessences: aromatic sprays for meditation, inspiration, and higher awareness.\n- Rescue Set: Pocket Rescue Equilibrium Oils are your 'AURA-SOMA® First Aid' on the go in an emergency, crisis situation.",
+      "category": "General"
+    },
+    {
+      "id": "Q5",
+      "question": "What types of Aura-Soma services do you offer?",
+      "answer": "Most of these services are available online or one-on-one consultation:\n- Aura-Soma ID\n- Express consultation (personal daily tip)\n- Classic consultation\n- Mega consultation\n- Mandala reading\n- Colorful forecasts on major world events (political, economic, etc.)\n- Aura-Soma year forecast\n- Aura-Soma retreat\n- More offers, courses, and B2B opportunities you may find at www.velana.net/aurasoma and www.velana.net/cooperation",
+      "category": "Services"
+    },
+    {
+      "id": "Q6",
+      "question": "How can I book the Aura-Soma consultation?",
+      "answer": "You may book your consultation in one click: https://velana.net/aurasoma#offers",
+      "category": "Booking"
+    },
+    {
+      "id": "Q7",
+      "question": "Are your products authentic?",
+      "answer": "Yes - our products come directly from the Aura-Soma Products Ltd. (UK) factory and are guaranteed to be 100% authentic.",
+      "category": "Authenticity"
+    },
+    {
+      "id": "Q8",
+      "question": "Where are Aura-Soma products made?",
+      "answer": "They are made in Tetford, Lincolnshire, UK.",
+      "category": "Authenticity"
+    },
+    {
+      "id": "Q9",
+      "question": "Are Aura-Soma products organic?",
+      "answer": "Aura-Soma claims that its products are produced biodynamically and naturally, the Aura-Soma products are not organic/bio certified.",
+      "category": "Sustainability"
+    },
+    {
+      "id": "Q10",
+      "question": "Are Aura-Soma products vegan?",
+      "answer": "No, Aura-Soma products are not vegan certified, and are not PETA approved.",
+      "category": "Sustainability"
+    },
+    {
+      "id": "Q11",
+      "question": "Are Aura-Soma products sustainable?",
+      "answer": "There is no certified information about it, as well as there are no recycling or other sustainable pictograms on Aura-Soma packaging. You can find more expert info about it on the LinkedIn company page 'Velana'.",
+      "category": "Sustainability"
+    },
+    {
+      "id": "Q12",
+      "question": "How much do Aura-Soma products cost?",
+      "answer": "- Equilibrium Bottles: 47€ each.\n- Pomanders, Quintessence, and Rescue bottle: 27€ each.",
+      "category": "Pricing"
+    },
+    {
+      "id": "Q13",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept:\n- Stripe: Major credit/debit cards (Visa, Mastercard, AmEx)\n- PayPal\n- Bank transfer (selected regions)",
+      "category": "Pricing"
+    },
+    {
+      "id": "Q14",
+      "question": "Do you offer discounts or bundles?",
+      "answer": "Yes, apply via email to info@velana.net. We provide:\n- Birthday discount code\n- Bundle discounts of 3-5 products (e.g., discounted sets of Pomanders)\n- Seasonal sales and promotions",
+      "category": "Discounts"
+    },
+    {
+      "id": "Q15",
+      "question": "Do you ship internationally?",
+      "answer": "Yes - you can buy products after your personal consultation. Yes - shipping is available worldwide. Rates and times vary by destination.",
+      "category": "Shipping"
+    },
+    {
+      "id": "Q16",
+      "question": "How long does shipping take?",
+      "answer": "- Local deliveries: 2–5 business days\n- International deliveries: typically 7–14 business days.",
+      "category": "Shipping"
+    },
+    {
+      "id": "Q17",
+      "question": "Do you provide tracking?",
+      "answer": "Yes - you will receive a tracking number via email once your order ships.",
+      "category": "Shipping"
+    },
+    {
+      "id": "Q18",
+      "question": "Can I return Aura-Soma products?",
+      "answer": "Opened or used items cannot be returned for health and safety reasons. However, unopened and unused items can be returned within 14 days of delivery.",
+      "category": "Returns"
+    },
+    {
+      "id": "Q19",
+      "question": "What if my product arrives damaged or defective?",
+      "answer": "Contact us immediately with your order number and photos. We will replace or refund damaged items at no extra cost.",
+      "category": "Returns"
+    },
+    {
+      "id": "Q20",
+      "question": "How do I start a return?",
+      "answer": "Email info@velana.net with your order details. We'll provide the return address and instructions. Return shipping is the customer’s responsibility unless the item is defective or damaged.",
+      "category": "Returns"
+    }
+  ]
+}

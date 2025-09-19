@@ -1,0 +1,951 @@
+[
+  {
+    "id":"B000",
+    "name":"Spiritual Rescue",
+    "category":"Equilibrium",
+    "description":"Supports spiritual awakening and connection."
+  },
+  {
+    "id":"B001",
+    "name":"Physical Rescue",
+    "category":"Equilibrium",
+    "description":"Aids in physical recovery and vitality."
+  },
+  {
+    "id":"B002",
+    "name":"Peace Bottle",
+    "category":"Equilibrium",
+    "description":"Promotes inner peace, tranquility, calmness,"
+  },
+  {
+    "id":"B003",
+    "name":"The Heart Bottle / Atlantean Bottle",
+    "category":"Equilibrium",
+    "description":"Enhances utmost clarity, harmony, integrity, generosity, freedom and intuition."
+  },
+  {
+    "id":"B004",
+    "name":"The Sunlight Bottle",
+    "category":"Equilibrium",
+    "description":"Brings infinite happiness, bliss, and luxury to the mind and spirit."
+  },
+  {
+    "id":"B005",
+    "name":"Sunrise / Sunset Bottle",
+    "category":"Equilibrium",
+    "description":"Balances the energies of beginnings and endings. Active individualisation."
+  },
+  {
+    "id":"B006",
+    "name":"The Energy Bottle",
+    "category":"Equilibrium",
+    "description":"Boosts action, energy and concentration."
+  },
+  {
+    "id":"B007",
+    "name":"Garden of Gethsemane / Final Test of Faith",
+    "category":"Equilibrium",
+    "description":"Assists in seeking the truth, fulfilment, knowledge."
+  },
+  {
+    "id":"B008",
+    "name":"Anubis",
+    "category":"Equilibrium",
+    "description":"Supports transformation and the release of the past."
+  },
+  {
+    "id":"B009",
+    "name":"Heart within the Heart / The Transcendental Heart / The Crystal Cave",
+    "category":"Equilibrium",
+    "description":"Awakens the Transcendent Heart (Ananda Kanda). Incredible Master."
+  },
+  {
+    "id":"B010",
+    "name":"Go Hug a Tree",
+    "category":"Equilibrium",
+    "description":"Connects with nature. Enhances regeneration, balance, foresight."
+  },
+  {
+    "id":"B011",
+    "name":"The Essene Bottle 1 / Chain of Flowers",
+    "category":"Equilibrium",
+    "description":"Enhances purity, letting go, ascension, heartfulness, delicacy."
+  },
+  {
+    "id":"B012",
+    "name":"Peace in the New Aeon",
+    "category":"Equilibrium",
+    "description":"An initiation. Facilitates peace, faith, and harmony in the new era."
+  },
+  {
+    "id":"B013",
+    "name":"Change in the New Aeon",
+    "category":"Equilibrium",
+    "description":"Supports the emotional side of life. Adaptation and transformation."
+  },
+  {
+    "id":"B014",
+    "name":"Wisdom in the New Aeon",
+    "category":"Equilibrium",
+    "description":"Wisdom unfolds the clarity in the new era."
+  },
+  {
+    "id":"B015",
+    "name":"Service in the New Aeon",
+    "category":"Equilibrium",
+    "description":"Encourages the search for truth and self discover. Elevation of the self."
+  },
+  {
+    "id":"B016",
+    "name":"The Violet Robe",
+    "category":"Equilibrium",
+    "description":"Awakening to our true self and complete re-evaluation."
+  },
+  {
+    "id":"B017",
+    "name":"The Hope / Troubadour 1",
+    "category":"Equilibrium",
+    "description":"Provides a new beginning for spirituality and connection to start within."
+  },
+  {
+    "id":"B018",
+    "name":"Egyptian Bottle",
+    "category":"Equilibrium",
+    "description":"Provides refining of knowledge."
+  },
+  {
+    "id":"B019",
+    "name":"Living in the material world",
+    "category":"Equilibrium",
+    "description":"Energetical change, renewal of our bodies."
+  },
+  {
+    "id":"B020",
+    "name":"Star Child",
+    "category":"Equilibrium",
+    "description":"The communication of unconditional love, dreams, peace and self-acceptance."
+  },
+  {
+    "id":"B021",
+    "name":"New beginning for Love",
+    "category":"Equilibrium",
+    "description":"Promotes love & warmth in heart, transcendent wisdom."
+  },
+  {
+    "id":"B022",
+    "name":"The Rebirth / Awakening",
+    "category":"Equilibrium",
+    "description":"Facilitates self-love, joy, charm, and realisation."
+  },
+  {
+    "id":"B023",
+    "name":"Love and Light",
+    "category":"Equilibrium",
+    "description":"Encourages compassion, forgiveness, tenderness and self-acceptance."
+  },
+  {
+    "id":"B024",
+    "name":"A New Message",
+    "category":"Equilibrium",
+    "description":"Healing Creator inspired by the Universal Spirit."
+  },
+  {
+    "id":"B025",
+    "name":"Florence Nightingale",
+    "category":"Equilibrium",
+    "description":"Inspires pursuit of new experiences. A mystic and pioneering spirit."
+  },
+  {
+    "id":"B026",
+    "name":"Etheric Rescue",
+    "category":"Equilibrium",
+    "description":"Healing of the timeline. Anger, shock and trauma absorber."
+  },
+  {
+    "id":"B027",
+    "name":"Robin Hood",
+    "category":"Equilibrium",
+    "description":"Balance between the head and heart. Provokes action and courage."
+  },
+  {
+    "id":"B028",
+    "name":"Maid Marion",
+    "category":"Equilibrium",
+    "description":"Transcendent knowledge and intuition gives a new hope and relief to pain."
+  },
+  {
+    "id":"B029",
+    "name":"Get up and go!",
+    "category":"Equilibrium",
+    "description":"Provides courage, freedom, and determination."
+  },
+  {
+    "id":"B030",
+    "name":"Bringing Heaven to Earth",
+    "category":"Equilibrium",
+    "description":"Head in heaven, feet on the earth. Awakening to the communiation of peace."
+  },
+  {
+    "id":"B031",
+    "name":"The Fountain",
+    "category":"Equilibrium",
+    "description":"Supports growth, wisdom, and exquisite style."
+  },
+  {
+    "id":"B032",
+    "name":"Sophia",
+    "category":"Equilibrium",
+    "description":"Enhances leadership qualities, nobility, and the ability to inspire others."
+  },
+  {
+    "id":"B033",
+    "name":"Dolphin Bottle",
+    "category":"Equilibrium",
+    "description":"Provides peace with a purpose, clarity and creativity."
+  },
+  {
+    "id":"B034",
+    "name":"The Birth of Venus",
+    "category":"Equilibrium",
+    "description":"Stimulates beauty, artistry, creativity and innovation."
+  },
+  {
+    "id":"B035",
+    "name":"Mystical kindness",
+    "category":"Equilibrium",
+    "description":"Feminine healer. Promotes passion, desire, self-care trust, catalyst, mysticism."
+  },
+  {
+    "id":"B036",
+    "name":"Charity",
+    "category":"Equilibrium",
+    "description":"Facilitates transition, transformative care and grace."
+  },
+  {
+    "id":"B037",
+    "name":"The Guardian Angel comes",
+    "category":"Equilibrium",
+    "description":"Encourages transformative communication of Higher Will."
+  },
+  {
+    "id":"B038",
+    "name":"Discernment / Troubadour 2",
+    "category":"Equilibrium",
+    "description":"Supports imagination, space, inspired development, vitality and sacral wisdom."
+  },
+  {
+    "id":"B039",
+    "name":"Egyptian Bottle 2",
+    "category":"Equilibrium",
+    "description":"Inspires adventure and passion. Healing joy bringer."
+  },
+  {
+    "id":"B040",
+    "name":"The I Am Bottle",
+    "category":"Equilibrium",
+    "description":"Awakened wisdom, detachment of irrational fears and confusion."
+  },
+  {
+    "id":"B041",
+    "name":"The Wisdom Bottle",
+    "category":"Equilibrium",
+    "description":"Enhances insights, enlightenment, joy & glorious wisdom on all levels."
+  },
+  {
+    "id":"B042",
+    "name":"Harvest",
+    "category":"Equilibrium",
+    "description":"Provides self-consciousness and mastery."
+  },
+  {
+    "id":"B043",
+    "name":"Creativity",
+    "category":"Equilibrium",
+    "description":"Provides liquid mind and creative heart. Communication without borders and innovations."
+  },
+  {
+    "id":"B044",
+    "name":"The Guardian Angel",
+    "category":"Equilibrium",
+    "description":"Enhances ability to speak the truth, live in peace and miracle."
+  },
+  {
+    "id":"B045",
+    "name":"Breath of Love / Heart's blossom",
+    "category":"Equilibrium",
+    "description":"Supports teaching abilities and the sharing attention to details, soul fulfilment with others."
+  },
+  {
+    "id":"B046",
+    "name":"The Wanderer",
+    "category":"Equilibrium",
+    "description":"Enhances ripeness of life, leadership qualities and the ability to inspire others."
+  },
+  {
+    "id":"B047",
+    "name":"The Old Soul",
+    "category":"Equilibrium",
+    "description":"Provides individual power, strong individual will, charisma and remarkable status."
+  },
+  {
+    "id":"B048",
+    "name":"Wings of Change",
+    "category":"Equilibrium",
+    "description":"Provides healing of past, tears, losses. Unfolds light and voidness for new quantum sparkes."
+  },
+  {
+    "id":"B049",
+    "name":"The New Messenger",
+    "category":"Equilibrium",
+    "description":"Leader inspired from Sublime realms, having the keys of timegates."
+  },
+  {
+    "id":"B050",
+    "name":"El Morya",
+    "category":"Equilibrium",
+    "description":"Thy will, not my will. Transcendent peace and clarity."
+  },
+  {
+    "id":"B051",
+    "name":"Kuthumi",
+    "category":"Equilibrium",
+    "description":"Transcendent mastery and knowledge."
+  },
+  {
+    "id":"B052",
+    "name":"Lady Nada",
+    "category":"Equilibrium",
+    "description":"Divine Heart, Ascendent & unconditional Love."
+  },
+  {
+    "id":"B053",
+    "name":"Hilarion",
+    "category":"Equilibrium",
+    "description":"Intuitive Teacher. Sublime hope, synchronicity, and integrity"
+  },
+  {
+    "id":"B054",
+    "name":"Serapis Bey",
+    "category":"Equilibrium",
+    "description":"Promotes strong purification, deep spiritual transformation, total reset."
+  },
+  {
+    "id":"B055",
+    "name":"He Christ",
+    "category":"Equilibrium",
+    "description":"Provides the energy to work with and for the light."
+  },
+  {
+    "id":"B056",
+    "name":"Saint Germain",
+    "category":"Equilibrium",
+    "description":"A mystic catalyst in the world. The power of Violet Flame."
+  },
+  {
+    "id":"B057",
+    "name":"Pallas Athena and Aeolus",
+    "category":"Equilibrium",
+    "description":"Continuous serenity and care. Balance of mind and feelings. Love nurtures intellect."
+  },
+  {
+    "id":"B058",
+    "name":"Orion and Angelica",
+    "category":"Equilibrium",
+    "description":"Intellect assists the feelings and trust. Peace along the marvelous love."
+  },
+  {
+    "id":"B059",
+    "name":"Lady Portia",
+    "category":"Equilibrium",
+    "description":"Justice and support. Facilitates letting go of the judgement of self and fears."
+  },
+  {
+    "id":"B060",
+    "name":"Lao Tsu and Kwan Yin",
+    "category":"Equilibrium",
+    "description":"Clarity, freedom, wisdom, confidence, sense of presence, communication from the light."
+  },
+  {
+    "id":"B061",
+    "name":"Sanat Kumara and Lady Venus Kumara",
+    "category":"Equilibrium",
+    "description":"Masters of truthfulness, willpower, settlement, righteousness, mental and spiritual sciences."
+  },
+  {
+    "id":"B062",
+    "name":"Maha Chohan",
+    "category":"Equilibrium",
+    "description":"Light on a path of human evolution, liberation and ascension."
+  },
+  {
+    "id":"B063",
+    "name":"Djwal Khul and Hilarion",
+    "category":"Equilibrium",
+    "description":"Teaching knowledge, inspiration, truth, healing, spiritual assistance."
+  },
+  {
+    "id":"B064",
+    "name":"Djwal Khul",
+    "category":"Equilibrium",
+    "description":"Teaching and wisdom, esoteric healing, world service and group work."
+  },
+  {
+    "id":"B065",
+    "name":"Head in heaven and feet on Earth",
+    "category":"Equilibrium",
+    "description":"Encourages passion, enthusiasm, transformative beauty, profound details."
+  },
+  {
+    "id":"B066",
+    "name":"The Actress",
+    "category":"Equilibrium",
+    "description":"Supports detachment from conditioning, imagination, sensitivity."
+  },
+  {
+    "id":"B067",
+    "name":"Love from above",
+    "category":"Equilibrium",
+    "description":"Inspires abundance, blessings, gratitude, beauty in little details."
+  },
+  {
+    "id":"B068",
+    "name":"Gabriel",
+    "category":"Equilibrium",
+    "description":"Promotes philosophical thinking, deep peace, fulfillment, strong intellect and contemplation."
+  },
+  {
+    "id":"B069",
+    "name":"The Sounding bell",
+    "category":"Equilibrium",
+    "description":"Purification and transmutation derived from Soul Star."
+  },
+  {
+    "id":"B070",
+    "name":"Vision of Splendor",
+    "category":"Equilibrium",
+    "description":"Ascension through intellectual knowledge, justice, humour and joyful spirit. Ability to see the bigger picture."
+  },
+  {
+    "id":"B071",
+    "name":"The Essene bottle 2 / The Jewel in the Lotus",
+    "category":"Equilibrium",
+    "description":"The portal opened by unconditional love and understanding of suffering."
+  },
+  {
+    "id":"B072",
+    "name":"The Clown",
+    "category":"Equilibrium",
+    "description":"Struggle of opposites. Understanding of sadness and calmness may heal the trauma and grief."
+  },
+  {
+    "id":"B073",
+    "name":"Chang Tsu",
+    "category":"Equilibrium",
+    "description":"Exaltation, talent expression, deep joy, discernment as the key to clarity and wholeness."
+  },
+  {
+    "id":"B074",
+    "name":"Triumph",
+    "category":"Equilibrium",
+    "description":"Supports to overcome false pride, material attachments and find a balance."
+  },
+  {
+    "id":"B075",
+    "name":"Go with the flow",
+    "category":"Equilibrium",
+    "description":"Provides a deeper understanding of trust, freedom communication and relationships."
+  },
+  {
+    "id":"B076",
+    "name":"Trust",
+    "category":"Equilibrium",
+    "description":"Stimulates everlasting happiness, love, plenitude and enlightenment."
+  },
+  {
+    "id":"B077",
+    "name":"The Cup",
+    "category":"Equilibrium",
+    "description":"Helps to restructure life and let go of illusions."
+  },
+  {
+    "id":"B078",
+    "name":"Crown Rescue / The Transition",
+    "category":"Equilibrium",
+    "description":"In every ending there is a new beginning."
+  },
+  {
+    "id":"B079",
+    "name":"The Ostrich",
+    "category":"Equilibrium",
+    "description":"Promotes dedication and deep etheric healing."
+  },
+  {
+    "id":"B080",
+    "name":"Artemis",
+    "category":"Equilibrium",
+    "description":"Supports to overcome survival challenges, materialistic mindset, frustration."
+  },
+  {
+    "id":"B081",
+    "name":"Unconditional love",
+    "category":"Equilibrium",
+    "description":"Inspires caring, ease, warmth, trust, kindness and compassion on all levels."
+  },
+  {
+    "id":"B082",
+    "name":"Calypso",
+    "category":"Equilibrium",
+    "description":"Promotes challenging and extensive paths of revelation of letting go and fulfillment coming from strong mind and intuition."
+  },
+  {
+    "id":"B083",
+    "name":"Open Sesame",
+    "category":"Equilibrium",
+    "description":"The learnings of past mistakes and failures are expressed through creativity."
+  },
+  {
+    "id":"B084",
+    "name":"Candle in the wind",
+    "category":"Equilibrium",
+    "description":"Supports a sense of vulnerability and develops strength."
+  },
+  {
+    "id":"B085",
+    "name":"Titania - Queen of the fairies",
+    "category":"Equilibrium",
+    "description":"The magic light within. The conscious mind. The conscious mind, talents and creativity open the true freedom and clarity of path."
+  },
+  {
+    "id":"B086",
+    "name":"Oberon - King of the fairies",
+    "category":"Equilibrium",
+    "description":"Utmost clarity, crystal vision, and soul mission. Unfolds the pioneering creator."
+  },
+  {
+    "id":"B087",
+    "name":"Love wisdom",
+    "category":"Equilibrium",
+    "description":"Supports to let go of the past and ability to see beyond oneself's self reflection."
+  },
+  {
+    "id":"B088",
+    "name":"Jade Emperor",
+    "category":"Equilibrium",
+    "description":"Enhances transcendent mastership, spiritual leadership, and reforming changes."
+  },
+  {
+    "id":"B089",
+    "name":"Energy Rescue",
+    "category":"Equilibrium",
+    "description":"The time & paradigm shifter. Awesome empowering gateway."
+  },
+  {
+    "id":"B090",
+    "name":"Wisdom Rescue",
+    "category":"Equilibrium",
+    "description":"Initiation to act with power and wisdom of Incarnation Star."
+  },
+  {
+    "id":"B091",
+    "name":"Feminine leadership",
+    "category":"Equilibrium",
+    "description":"Provides leadership qualities and connection to the Holy Spirit (supernatural matters)."
+  },
+  {
+    "id":"B092",
+    "name":"Gretel",
+    "category":"Equilibrium",
+    "description":"Provides feminine leadership, independence, and wisdom."
+  },
+  {
+    "id":"B093",
+    "name":"Hansel",
+    "category":"Equilibrium",
+    "description":"Stimulates creative and innovative communication through facing the true self. Ananda Kanda opener."
+  },
+  {
+    "id":"B094",
+    "name":"Archangel Michael",
+    "category":"Equilibrium",
+    "description":"Master of individuation with peace and confidence. An intense truth revealer."
+  },
+  {
+    "id":"B095",
+    "name":"Archangel Gabriel",
+    "category":"Equilibrium",
+    "description":"The Messenger from the stars that shifts our evolution timeline."
+  },
+  {
+    "id":"B096",
+    "name":"Archangel Raphael",
+    "category":"Equilibrium",
+    "description":"Strong subtle power and inter dimensional intuition. Ultimate detachment and protection."
+  },
+  {
+    "id":"B097",
+    "name":"Archangel Uriel",
+    "category":"Equilibrium",
+    "description":"Facilitates the true purpose, justice, wisdom and abundance of life through the innate intuition and beyond matter senses."
+  },
+  {
+    "id":"B098",
+    "name":"Archangel Sandalphon",
+    "category":"Equilibrium",
+    "description":"The four-way energy portal."
+  },
+  {
+    "id":"B099",
+    "name":"Archangel Tzadkiel",
+    "category":"Equilibrium",
+    "description":"A marvelous changer to self-love, life-master, and freedom in a Here and Now."
+  },
+  {
+    "id":"B100",
+    "name":"Archangel Metatron",
+    "category":"Equilibrium",
+    "description":"Shining the light in the shadow. A new dawn in the subtle and non-manifested realsm."
+  },
+  {
+    "id":"B101",
+    "name":"Archangel Jophiel",
+    "category":"Equilibrium",
+    "description":"Divine hope and wonder. Eliminates all inner bitterness with conscious peace, authority, unity and creative guidance."
+  },
+  {
+    "id":"B102",
+    "name":"Archangel Samael",
+    "category":"Equilibrium",
+    "description":"Wonderful re-evaluator of our beliefs and ideals, a new foundation enabler."
+  },
+  {
+    "id":"B103",
+    "name":"Archangel Haniel",
+    "category":"Equilibrium",
+    "description":"Unique Activator of Higher Will in the darkness. All positive manifestor."
+  },
+  {
+    "id":"B104",
+    "name":"Archangel Chamael",
+    "category":"Equilibrium",
+    "description":"A new order of being. Divine space-freezer and love and comfort establishment."
+  },
+  {
+    "id":"B105",
+    "name":"Archangel Azrael",
+    "category":"Equilibrium",
+    "description":"Deep insights, ultimate courage, aggression- and fight-stopper. Long lasting ecstacy and upliftment."
+  },
+  {
+    "id":"B106",
+    "name":"Archangel Ratziel",
+    "category":"Equilibrium",
+    "description":"Provides reciprocal maintenance and the inner alchemy of soul. Peace-transmitter, Holy messenger."
+  },
+  {
+    "id":"B107",
+    "name":"Archangel Tzaphkiel",
+    "category":"Equilibrium",
+    "description":"The union of divine care and infinite talented potential."
+  },
+  {
+    "id":"B108",
+    "name":"Archangel Jeremiel",
+    "category":"Equilibrium",
+    "description":"Supports letting go of the past pain and delusions, brings changes to perspective and true purpose expression."
+  },
+  {
+    "id":"B109",
+    "name":"Archangel Zachariel",
+    "category":"Equilibrium",
+    "description":"Truth and sincerity in love and relationships. Detail enhancer and leadership synchroniser."
+  },
+  {
+    "id":"B110",
+    "name":"Archangel Ambriel",
+    "category":"Equilibrium",
+    "description":"The union of Heart and Soul Star."
+  },
+  {
+    "id":"B111",
+    "name":"Archangel Daniel",
+    "category":"Equilibrium",
+    "description":"Inspires a restoration of inner and outer balance. Practical game-changer."
+  },
+  {
+    "id":"B112",
+    "name":"Archangel Israfel",
+    "category":"Equilibrium",
+    "description":"Conscious art manifestor. Supreme communicator and faithful creator. The union of mind, will, and transcendent heart."
+  },
+  {
+    "id":"B113",
+    "name":"Archangel Cassiel",
+    "category":"Equilibrium",
+    "description":"Life animator, sharp awareness, intuitive integrity, panoramic vision-expander."
+  },
+  {
+    "id":"B114",
+    "name":"Archangel Raguel",
+    "category":"Equilibrium",
+    "description":"Divine microscope."
+  },
+  {
+    "id":"B115",
+    "name":"Archangel Khemiel & Ariel",
+    "category":"Equilibrium",
+    "description":"Deep sensitivity, purifying flame, and transubstantiation towards our being."
+  },
+  {
+    "id":"B116",
+    "name":"Queen Mab",
+    "category":"Equilibrium",
+    "description":"Reconnection to our higher mind, benevolence and compassion."
+  },
+  {
+    "id":"B117",
+    "name":"Pan",
+    "category":"Equilibrium",
+    "description":"Trust to creative force and senses rather than reliance on the intellect."
+  },
+  {
+    "id":"B118",
+    "name":"Echo",
+    "category":"Equilibrium",
+    "description":"Transdimensional remembering of the soul."
+  },
+  {
+    "id":"B119",
+    "name":"Ceres",
+    "category":"Equilibrium",
+    "description":"Bliss and insight gives the opportunity to go beyond any limitations."
+  },
+  {
+    "id":"B120",
+    "name":"Persephone",
+    "category":"Equilibrium",
+    "description":"Spiritual growth and transformation through expanded joy, dedication, and wellbeing."
+  },
+  {
+    "id":"B121",
+    "name":"Pluton",
+    "category":"Equilibrium",
+    "description":"Transcending the unconscious patterns of conditioning."
+  },
+  {
+    "id":"B122",
+    "name":"Poseidon",
+    "category":"Equilibrium",
+    "description":"Letting go of everything that no longer serves to fulfill my spirit."
+  },
+  {
+    "id":"B123",
+    "name":"Rhea",
+    "category":"Equilibrium",
+    "description":"Very helpful in times of change and uncertainty. Stimulates reason, willpower, and intuition."
+  },
+  {
+    "id":"P01",
+    "name":"White Pomander",
+    "category":"Pomander",
+    "description":"The Original Pomander."
+  },
+  {
+   "id":"P02", 
+   "name":"Coral Pomander",
+   "category":"Pomander",
+   "decription": "The Awakener."
+  },
+  {
+    "id":"P03",
+    "name":"Deep Red Pomander",
+    "category":"Pomander",
+    "description":"The Energizer and Protector."
+  },
+  {
+    "id":"P04",
+    "name":"Emerald Green Pomander",
+    "category":"Pomander",
+    "description":"Truth and Direction, the Decision Maker."
+  },
+  {
+    "id":"P05",
+    "name":"Gold Pomander",
+    "category":"Pomander",
+    "description":"Wisdom and Self Knowledge."
+  },
+  { 
+    "id":"P06",
+    "name":"Lime Green Pomander",
+    "category":"Pomander",
+    "description":"New Growth."
+  },
+  { 
+    "id":"P07",
+    "name":"Magenta Pomander",
+    "category":"Pomander",
+    "description":"Love from Above."
+  },
+  { 
+    "id":"P08",
+    "name":"Olive Green Pomander",
+    "category":"Pomander",
+    "description":"Intuitive Leadership of the Heart."
+  },
+  { 
+    "id":"P09",
+    "name":"Orange Pomander",
+    "category":"Pomander",
+    "description":"The Regression Protector, Restoring the Timeline."
+  },
+  { 
+    "id":"P10",
+    "name":"Pale Coral Pomander",
+    "category":"Pomander",
+    "description":"Acceptance."
+  },
+  {
+    "id":"P11",
+    "name":"Pink Pomander",
+    "category":"Pomander",
+    "description":"Just for Love."
+  },
+  {   
+    "id":"P12",
+    "name":"Red Pomander",
+    "category":"Pomander",
+    "description":"Balancing the Energies."
+  },
+  { 
+    "id":"P13",
+    "name":"Rose Pink Pomander",
+    "category":"Pomander",
+    "description":"Unconditional Love."
+  },
+  { 
+    "id":"P14",
+    "name":"Royal Blue Pomander",
+    "category":"Pomander",
+    "description":"The Perception Strengthener."
+  },
+  { 
+    "id":"P15",
+    "name":"Sapphire Blue Pomander",
+    "category":"Pomander",
+    "description":"The Communication Protector."
+  },
+  { 
+    "id":"P16",
+    "name":"Yellow Pomander",
+    "category":"Pomander",
+    "description":"The Sunlight and Assimilation."
+  },
+  { 
+    "id":"P17",
+    "name":"Turquoise Pomander",
+    "category":"Pomander",
+    "description":"The Healer's Healer."
+  },
+  { 
+    "id":"P18",
+    "name":"Violet Pomander",
+    "category":"Pomander",
+    "description":"The Spiritual Protector."
+  },
+  { 
+    "id":"P19",
+    "name":"Deep Magenta Pomander",
+    "category":"Pomander",
+    "description":"The Carer's Carer."
+ 
+  },
+  { 
+    "id":"Q01",
+    "name":"El Morya",
+    "category":"Quintessence",
+    "description":"Thy will be done through me."
+  },
+  {
+    "id":"Q02",
+    "name":"Kuthumi",
+    "category":"Quintessence",
+    "description":"Two-way Communication Between Above and Below."  
+  },
+  {
+    "id":"Q03",
+    "name":"Hilarion",
+    "category":"Quintessence",
+    "description":"The Way, the Truth and the Light."
+  },
+  {
+    "id":"Q04",
+    "name":"Lady Nada",
+    "category":"Quintessence",
+    "description":"Unconditional Love and Self Acceptance."
+  },
+  {
+    "id":"Q05",
+    "name":"Lady Portia",
+    "category":"Quintessence",
+    "description":"Judge not Lest Ye Be Judged."
+  },
+  {
+   "id":"Q06",
+    "name":"Lao Tsu & Kwan Yin",
+    "category":"Quintessence",
+    "description":"Release of the Past through Compassion and Transformation"
+  },
+  {
+    "id":"Q07",
+    "name":"Maha Chohan",
+    "category":"Quintessence",
+    "description":"Insight and Creativity from the Sea of Pure Universal."  
+  },
+  {
+    "id":"Q08",
+    "name":"Orion & Angelica",
+    "category":"Quintessence",
+    "description":"For the Cyclical Journeys of Endings and Fresh Beginnings."  
+  },
+  {
+    "id":"Q09",
+    "name":"Pallas Athena",
+    "category":"Quintessence",
+    "description":"Inspired Expression of Love and Beauty."
+  },
+  {
+    "id":"Q10",
+    "name":"Sanat Kumara",
+    "category":"Quintessence",
+    "description":"Reconciliation of the Below and Within." 
+  },
+  {
+    "id":"Q11",
+    "name":"Serapis Bey",
+    "category":"Quintessence",
+    "description":"Purification and New Beginnings." 
+  },
+  {
+    "id":"Q12",
+    "name":"St. Germain",
+    "category":"Quintessence",
+    "description":"Alchemical Transformation."  
+  },
+  {
+    "id":"Q13",
+    "name":"The Christ",
+    "category":"Quintessence",
+    "description":"The Energy and Fulfilment of Love on Earth."
+  },
+  {
+    "id":"Q14",
+    "name":"Djwal Khul",
+    "category":"Quintessence",
+    "description":"The seeking of truth."
+  },
+  {
+    "id":"Q15",
+    "name":"The Holy Grail",
+    "category":"Quintessence",
+    "description":"Receptivity to what comes from Within."  
+    }
+]

@@ -1,0 +1,68 @@
+{
+  "services": [
+    {
+      "name": "Express",
+      "price": 35,
+      "description": "Express consultation gives you personalized know-how for a chosen day.",
+      "details": [
+        "Are you planning an important event?",
+        "Are you choosing a date for a wedding or business opening?",
+        "Curious to know the guidance of the Aura-Soma angels?",
+        "Then an express consultation is what you need!"
+      ]
+    },
+    {
+      "name": "Classic",
+      "price": 100,
+      "description": "A classic Aura-Soma consultation reveals your unique gifts and mission.",
+      "details": [
+        "Reveals your unique gifts and mission of the spirit",
+        "Shows your past-present-future timeline",
+        "Helps you find answers to life situations",
+        "Revives inspiration and confidence on your path"
+      ]
+    },
+    {
+      "name": "Mega",
+      "price": 130,
+      "description": "Mega-consultation reveals all the sides and keys of Aura-Soma.",
+      "details": [
+        "Includes entire Classic consultation",
+        "Determination of your individual equilibrium in Aura-Soma",
+        "Aura treatment with Aura-Soma pomander",
+        "Trends on your timeline",
+        "How others see you",
+        "Practical tips on the Path of destiny and much more"
+      ]
+    },
+    {
+      "name": "Aura-Soma 2025",
+      "price": 150,
+      "description": "Get a colourful, inspiring, and most unusual year forecast for 2025.",
+      "details": [
+        "Main leitmotifs and description of 2025 with Aura-Soma products"
+      ]
+    },
+    {
+      "name": "Mandala",
+      "price": 50,
+      "description": "Personalised mandala reading for those who enjoy painting or coloring mandalas.",
+      "details": [
+        "Do you like to paint or color mandalas?",
+        "Want to know what stands behind your colours?",
+        "Get your personalised mandala reading"
+      ]
+    },
+    {
+      "name": "Aura Treatments",
+      "price": 20,
+      "description": "Treatments to address negative emotions, stress, and other issues affecting aura quality.",
+      "details": [
+        "Addresses negative emotions, stress, harmful habits, diseases, unhealthy lifestyle",
+        "Counteracts collective electromagnetic spectrum and other life issues that lower aura vibrations and quality"
+      ]
+    }
+  ],
+  "giftcards": [30, 50, 100, 130],
+  "booking_link": "https://velana.net/aurasoma#offers"
+}
