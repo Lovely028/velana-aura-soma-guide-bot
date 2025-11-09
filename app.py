@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone
 from langchain_core.prompts import ChatPromptTemplate
-from langchain.memory import ConversationBufferMemory
+from langchain_classic.memory import ConversationBufferMemory
 import re
 import json
 import logging
@@ -776,3 +776,4 @@ for q, a, ts in st.session_state.history:
 chat_html += '</div>'
 
 st.markdown(chat_html, unsafe_allow_html=True)
+
