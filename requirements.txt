@@ -6,3 +6,4 @@ openai
 python-dotenv
 langchain
 autopep8
+langchain-classic==0.0.1  
