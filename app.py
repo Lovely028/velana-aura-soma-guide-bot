@@ -17,7 +17,7 @@ import streamlit as st
 import requests
 
 # ---- FAQ Loader ----
-FAQ_URL = "https://github.com/Lovely028/velana-aura-soma-guide-bot/blob/main/json%20files/aura_soma_faq.json"
+FAQ_URL = "https://raw.githubusercontent.com/Lovely028/velana-aura-soma-guide-bot/main/json_files/aura_soma_faq.json"
 
 @st.cache_data(ttl=60)  # auto-refresh every 60s
 def load_faq():
