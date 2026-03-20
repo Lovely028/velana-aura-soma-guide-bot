@@ -26,7 +26,17 @@ def load_faq():
     return response.json()
 
 faq_data = load_faq()
-# -----------------------------
+
+# -------FAQ matching ----------
+def get_answer(user_question):
+    """
+    Simple example using string matching. 
+    Replace with your embedding / semantic logic if needed.
+    """
+    for item in faq_data["faqs"]:
+        if user_question.lower() in item["question"].lower():
+            return item["answer"]
+    return "Sorry, I could not find an answer to that question."
 
 # ---- Your UI ----
 st.title("Aura Guide Bot")
@@ -37,8 +47,6 @@ if user_input:
     response = get_answer(user_input)
     st.write(response)
 
-# Optional debug
-st.write("FAQ loaded:", faq_data)
 
 # --- Configure logging ---
 logging.basicConfig(level=logging.INFO)
