@@ -32,6 +32,11 @@ faq_data = load_faq()
 st.title("Aura Guide Bot")
 user_input = st.text_input("Ask your question")
 
+# --- Call FAQ/matching ---
+if user_input:
+    response = get_answer(user_input)
+    st.write(response)
+
 # Optional debug
 st.write("FAQ loaded:", faq_data)
 
