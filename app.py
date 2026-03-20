@@ -13,6 +13,28 @@ import logging
 import time
 from functools import partial
 
+import streamlit as st
+import requests
+
+# ---- FAQ Loader ----
+FAQ_URL = "https://github.com/Lovely028/velana-aura-soma-guide-bot/blob/main/json%20files/aura_soma_faq.json"
+
+@st.cache_data(ttl=60)  # auto-refresh every 60s
+def load_faq():
+    response = requests.get(FAQ_URL)
+    response.raise_for_status()
+    return response.json()
+
+faq_data = load_faq()
+# -----------------------------
+
+# ---- Your UI ----
+st.title("Aura Guide Bot")
+user_input = st.text_input("Ask your question")
+
+# Optional debug
+st.write("FAQ loaded:", faq_data)
+
 # --- Configure logging ---
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
