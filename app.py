@@ -71,9 +71,9 @@ def detect_intent(query):
 
 # --- Call FAQ/matching ---
 if user_input:
-    intent = detect_intent(user_input)
+    intent = detect_intent(user_question) # changed from user input
 
-    faq_response = get_answer(user_input)
+    faq_response = get_answer(user_question) # changed from user input
 
     if faq_response:
         st.write(faq_response)
