@@ -54,8 +54,8 @@ def get_answer(user_question):
 
         return answer
 
-    return None
-    def detect_intent(query):
+     return None
+def detect_intent(query):
     q = query.lower()
 
     if any(word in q for word in ["buy", "order", "price", "cost"]):
