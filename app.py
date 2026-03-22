@@ -54,7 +54,7 @@ def get_answer(user_question):
 
         return answer
 
-     return None
+        return None
 def detect_intent(query):
     q = query.lower()
 
