@@ -69,10 +69,6 @@ def detect_intent(query):
 
         return "general"
 
-# ---- Your UI ----
-
-user_input = st.text_input("Ask your question")
-
 # --- Call FAQ/matching ---
 if user_input:
     intent = detect_intent(user_input)
