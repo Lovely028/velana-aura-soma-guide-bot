@@ -67,7 +67,7 @@ def detect_intent(query):
     if any(word in q for word in ["personal", "my", "me"]):
         return "personal"
 
-    return "general"
+        return "general"
 
 # ---- Your UI ----
 
