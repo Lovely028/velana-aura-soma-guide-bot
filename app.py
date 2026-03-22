@@ -14,6 +14,10 @@ import time
 from functools import partial
 import requests
 
+# --- Configure logging ---
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 # ---- FAQ Loader ----
 FAQ_URL = "https://raw.githubusercontent.com/Lovely028/velana-aura-soma-guide-bot/main/json%20files/aura_soma_faq.json"
 
