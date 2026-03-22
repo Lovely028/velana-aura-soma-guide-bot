@@ -12,8 +12,6 @@ import json
 import logging
 import time
 from functools import partial
-
-import streamlit as st
 import requests
 
 # ---- FAQ Loader ----
@@ -27,26 +25,78 @@ def load_faq():
 
 faq_data = load_faq()
 
-# -------FAQ matching ----------
+# -------FAQ matching and detect intent----------
 def get_answer(user_question):
-    """
-    Simple example using string matching. 
-    Replace with your embedding / semantic logic if needed.
-    """
+    user_question = user_question.lower()
+
+    best_match = None
+    best_score = 0
+
     for item in faq_data["faqs"]:
-        if user_question.lower() in item["question"].lower():
-            return item["answer"]
-    return "Sorry, I could not find an answer to that question."
+        q_words = set(item["question"].lower().split())
+        user_words = set(user_question.split())
+
+        score = len(q_words & user_words)
+
+        if score > best_score:
+            best_score = score
+            best_match = item
+
+    if best_score >= 2:
+        answer = best_match["answer"]
+
+        # 🔥 ADD CONVERSION LAYER
+        if "2026" in user_question:
+            answer += "\n\n✨ 2026 is not just a trend year—it’s a turning point.\n→ Access the full forecast here: https://velana.net/aurasoma-2026"
+
+        if "personal" in user_question or "my year" in user_question:
+            answer += "\n\n🔮 Want your personal monthly map?\n→ Get it here: https://velana.net/aurasoma#offers"
+
+        return answer
+
+    return None
+    def detect_intent(query):
+    q = query.lower()
+
+    if any(word in q for word in ["buy", "order", "price", "cost"]):
+        return "high_intent"
+
+    if any(word in q for word in ["2026", "future", "trend"]):
+        return "curiosity"
+
+    if any(word in q for word in ["personal", "my", "me"]):
+        return "personal"
+
+    return "general"
 
 # ---- Your UI ----
-st.title("Aura Guide Bot")
+
 user_input = st.text_input("Ask your question")
 
 # --- Call FAQ/matching ---
 if user_input:
-    response = get_answer(user_input)
-    st.write(response)
+    intent = detect_intent(user_input)
 
+    faq_response = get_answer(user_input)
+
+    if faq_response:
+        st.write(faq_response)
+
+    else:
+        result = process_query(user_input)
+        response = result["response"]
+
+        # 🔥 Inject conversion based on intent
+        if intent == "curiosity":
+            response += "\n\n✨ Curious what 2026 holds for you?\n→ Explore the full forecast: https://velana.net/aurasoma-2026"
+
+        elif intent == "personal":
+            response += "\n\n🔮 Your personal year map reveals much deeper insights.\n→ Access it here: https://velana.net/aurasoma#offers"
+
+        elif intent == "high_intent":
+            response += "\n\n👉 You can access everything directly here:\nhttps://velana.net/aurasoma#offers"
+
+        st.write(response)
 
 # --- Configure logging ---
 logging.basicConfig(level=logging.INFO)
