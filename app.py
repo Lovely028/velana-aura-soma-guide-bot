@@ -28,75 +28,38 @@ faq_data = load_faq()
 # -------FAQ matching and detect intent----------
 def get_answer(user_question):
     user_question = user_question.lower()
-
     best_match = None
     best_score = 0
 
     for item in faq_data["faqs"]:
         q_words = set(item["question"].lower().split())
         user_words = set(user_question.split())
-
         score = len(q_words & user_words)
-
         if score > best_score:
             best_score = score
             best_match = item
 
     if best_score >= 2:
         answer = best_match["answer"]
-
         # 🔥 ADD CONVERSION LAYER
         if "2026" in user_question:
             answer += "\n\n✨ 2026 is not just a trend year—it’s a turning point.\n→ Access the full forecast here: https://velana.net/aurasoma-2026"
-
         if "personal" in user_question or "my year" in user_question:
             answer += "\n\n🔮 Want your personal monthly map?\n→ Get it here: https://velana.net/aurasoma#offers"
-
         return answer
 
-        return None
+    return None # Corrected indentation (was line 58)
+
 def detect_intent(query):
     q = query.lower()
-
     if any(word in q for word in ["buy", "order", "price", "cost"]):
         return "high_intent"
-
     if any(word in q for word in ["2026", "future", "trend"]):
         return "curiosity"
-
     if any(word in q for word in ["personal", "my", "me"]):
         return "personal"
 
-        return "general"
-
-# --- Call FAQ/matching ---
-if user_input:
-    intent = detect_intent(user_question) # changed from user input
-
-    faq_response = get_answer(user_question) # changed from user input
-
-    if faq_response:
-        st.write(faq_response)
-
-    else:
-        result = process_query(user_input)
-        response = result["response"]
-
-        # 🔥 Inject conversion based on intent
-        if intent == "curiosity":
-            response += "\n\n✨ Curious what 2026 holds for you?\n→ Explore the full forecast: https://velana.net/aurasoma-2026"
-
-        elif intent == "personal":
-            response += "\n\n🔮 Your personal year map reveals much deeper insights.\n→ Access it here: https://velana.net/aurasoma#offers"
-
-        elif intent == "high_intent":
-            response += "\n\n👉 You can access everything directly here:\nhttps://velana.net/aurasoma#offers"
-
-        st.write(response)
-
-# --- Configure logging ---
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+    return "general" # Corrected indentation (was line 71)
 
 # --- API Key Security: Use Streamlit secrets ---
 try:
@@ -632,7 +595,13 @@ def process_query(query: str, chat_history: Optional[List[Dict]] = None) -> Dict
         logger.info(f"Query processing time: {latency:.4f} seconds")
         return {"response": response}
 
-    route = route_query(query)
+    # --- THE FAQ CHECK ---
+    faq_response = get_answer(query)
+    if faq_response:
+        return {"response": faq_response}
+
+    # ---  DEFINE THE ROUTE ---
+    route = route_query(query) 
     tool = tools.get(route, tools["faq"])
 
     extra_filter: Dict[str, str] = {}
