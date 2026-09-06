@@ -5,17 +5,65 @@ from typing import List, Dict, Optional, Callable
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone
-from langchain.prompts import ChatPromptTemplate
-from langchain.memory import ConversationBufferMemory
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_classic.memory import ConversationBufferMemory
 import re
 import json
 import logging
 import time
 from functools import partial
+import requests
 
 # --- Configure logging ---
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# ---- FAQ Loader ----
+FAQ_URL = "https://raw.githubusercontent.com/Lovely028/velana-aura-soma-guide-bot/main/json%20files/aura_soma_faq.json"
+
+@st.cache_data(ttl=60)  # auto-refresh every 60s
+def load_faq():
+    response = requests.get(FAQ_URL)
+    response.raise_for_status()
+    return response.json()
+
+faq_data = load_faq()
+
+# -------FAQ matching and detect intent----------
+def get_answer(user_question):
+    user_question = user_question.lower()
+    best_match = None
+    best_score = 0
+
+    for item in faq_data["faqs"]:
+        q_words = set(item["question"].lower().split())
+        user_words = set(user_question.split())
+        score = len(q_words & user_words)
+        if score > best_score:
+            best_score = score
+            best_match = item
+
+    if best_score >= 2:
+        answer = best_match["answer"]
+        # 🔥 ADD CONVERSION LAYER
+        if "2026" in user_question:
+            answer += "\n\n✨ 2026 is not just a trend year—it’s a turning point.\n→ Access the full forecast here: https://velana.net/aurasoma-2026"
+        if "personal" in user_question or "my year" in user_question:
+            answer += "\n\n🔮 Want your personal monthly map?\n→ Get it here: https://velana.net/aurasoma#offers"
+        return answer
+
+    return None # Corrected indentation (was line 58)
+
+def detect_intent(query):
+    q = query.lower()
+    if any(word in q for word in ["buy", "order", "price", "cost"]):
+        return "high_intent"
+    if any(word in q for word in ["2026", "future", "trend"]):
+        return "curiosity"
+    if any(word in q for word in ["personal", "my", "me"]):
+        return "personal"
+
+    return "general" # Corrected indentation (was line 71)
 
 # --- API Key Security: Use Streamlit secrets ---
 try:
@@ -485,7 +533,13 @@ def process_query(query: str, chat_history: Optional[List[Dict]] = None) -> Dict
         logger.info(f"Query processing time: {latency:.4f} seconds")
         return {"response": response}
 
-    route = route_query(query)
+    # --- THE FAQ CHECK ---
+    faq_response = get_answer(query)
+    if faq_response:
+        return {"response": faq_response}
+
+    # ---  DEFINE THE ROUTE ---
+    route = route_query(query) 
     tool = tools.get(route, tools["faq"])
 
     extra_filter: Dict[str, str] = {}
@@ -709,4 +763,6 @@ for q, a, ts in st.session_state.history:
     </div>
     '''
 chat_html += '</div>'
+
 st.markdown(chat_html, unsafe_allow_html=True)
+
