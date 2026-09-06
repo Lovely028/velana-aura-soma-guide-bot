@@ -263,7 +263,7 @@ def extract_product_metadata(documents: List[str], query: str) -> List[str]:
 
     # Log short descriptions if any
     if short_descriptions:
-        logger.warning(f"Short descriptions found: {short_descriptions}. Consider updating Aura_Soma_Products.json.")
+        logger.warning(f"Short descriptions found: {short_descriptions}. Consider updating chunks.json.")
 
     # Fallback to direct JSON search using chunks.json
     file_path = CONFIG["json_sources"]["product"]
@@ -402,73 +402,6 @@ def local_json_search(route: str, query: str) -> List[str]:
         logger.error(f"Invalid JSON: {str(e)}")
         return [f"Invalid data for '{query}'. Book at {CONFIG['booking_link']}."]
 
-def initialize_pinecone():
-    """Initialize Pinecone with safe namespace clearing and verification."""
-    try:
-        pinecone_client = Pinecone(api_key=PINECONE_API_KEY)
-        index_name = CONFIG["index_name"]
-        namespace = CONFIG["namespace"]
-
-        existing_indexes = pinecone_client.list_indexes().names()
-        if index_name not in existing_indexes:
-            logger.info(f"Creating Pinecone index: {index_name}")
-            pinecone_client.create_index(
-                name=index_name,
-                dimension=CONFIG["embedding_dimensions"],
-                metric="cosine",
-                spec={"serverless": {"cloud": "aws", "region": "us-east-1"}}
-            )
-            while not pinecone_client.describe_index(index_name).status["ready"]:
-                time.sleep(1)
-            logger.info(f"Index '{index_name}' created and ready.")
-        else:
-            logger.info(f"Index '{index_name}' already exists. Connecting...")
-
-        index = pinecone_client.Index(index_name)
-        index_stats = index.describe_index_stats()
-        if index_stats["dimension"] != CONFIG["embedding_dimensions"]:
-            raise ValueError(
-                f"Index dimension {index_stats['dimension']} does not match "
-                f"embedding dimension {CONFIG['embedding_dimensions']}"
-            )
-
-        # Optional: Clear namespace (comment out to avoid data loss - preserving 198 vectors)
-        # for attempt in range(3):
-        #     logger.info(f"Clearing namespace '{namespace}' (attempt {attempt + 1})...")
-        #     try:
-        #         index.delete(delete_all=True, namespace=namespace)
-        #         time.sleep(2)
-        #         index_stats = index.describe_index_stats()
-        #         vector_count = index_stats["namespaces"].get(namespace, {}).get("vector_count", 0)
-        #         if vector_count == 0:
-        #             logger.info(f"Namespace '{namespace}' successfully cleared.")
-        #             break
-        #     except Exception as e:
-        #         logger.warning(f"Namespace deletion attempt {attempt + 1} failed: {str(e)}")
-        # else:
-        #     logger.warning(f"Namespace '{namespace}' not found or failed to clear. Proceeding.")
-
-        embeddings = OpenAIEmbeddings(
-            model=CONFIG["embedding_model"],
-            api_key=OPENAI_API_KEY,
-            dimensions=CONFIG["embedding_dimensions"]
-        )
-        vector_store = PineconeVectorStore(
-            index=index,
-            embedding=embeddings,
-            namespace=namespace,
-            text_key=CONFIG["vector_store"]
-        )
-        return vector_store, index
-    except ValueError as e:
-        logger.error(f"Vector store initialization error: {str(e)}")
-        raise
-    except KeyError as e:
-        logger.error(f"Missing environment variable: {str(e)}")
-        raise
-
-vector_store, index = initialize_pinecone()
-
 tools = {
     "faq": VectorQueryTool(
         vector_store=vector_store,
@@ -517,8 +450,9 @@ system_prompt = """You are AuraGuide, a helpful, mindful chatbot for Velana.net,
 Key Rules:
 - Use provided {context} if relevant; otherwise, use tools or general knowledge.
 - For general Aura-Soma questions, including shipping and returns, use FAQTool or MeetAuraSoma tools.
-- For bottle/pomander/quintessence queries, use ProductTool to look at Aura_Soma_Products.json for id, name, category, and description, to extract name/title (e.g., "B001 - Blue/Deep Magenta - Physical Rescue"). Then say: "I'm not a practitioner, so I can't provide full analysis. Book with Velana: {booking_link}."
+- For bottle/pomander/quintessence queries, use ProductTool to look at chunks.json for id, name, category, and description, to extract name/title (e.g., "B001 - Blue/Deep Magenta - Physical Rescue"). Then say: "I'm not a practitioner, so I can't provide full analysis. Book with Velana: {booking_link}."
 - For pricing/services/consultation questions, use PricingTool to look at aura_soma_pricelist.json for name, price, description, or FAQTool. Bottles can be bought ideally after a personal consultation to ensure product fitness. Pomanders and Quintessence cost 27€ per bottle while Equilibrium costs 47€ per bottle. End with: "To dive deeper, book a consultation at {booking_link}."
+- If asked about Velana, respond: "Velana is an independent service provider, certified in Aura-Soma. All content is independently created and Velana expresses her own vision in no way related with official Aura-Soma methodology."
 - If no relevant info, say: "I couldn't find specific details, but generally [brief info]."
 - Redirect to {booking_link} only for personalized advice in booking or services queries.
 - Maintain conversational memory."""
@@ -633,7 +567,8 @@ def handle_product_query(query: str, context: List[str]) -> Optional[str]:
 
     product_response = extract_product_metadata(context, query)
     return (
-        f"{product_response[0]} I'm not a practitioner, so I can't provide full analysis. "
+        f"From our Aura-Soma guide (sourced from JSON): {product_response[0]} "
+        f"I'm not a practitioner, so I can't provide full analysis. "
         f"Book with Velana: {CONFIG['booking_link']}."
     )
 
